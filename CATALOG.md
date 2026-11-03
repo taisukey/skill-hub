@@ -1,11 +1,11 @@
 # CATALOG — Starred Agent Skills
 
-taisukey の GitHub Starred（135 件）から SKILL.md を含むリポジトリだけを抽出し、分類したカタログ。
+GitHub Starred から SKILL.md を含むリポジトリだけを抽出し、分類したカタログ。
 生成: build_catalog.py / 元データ: catalog.json
 
-## 専用スキル集（導入候補）（26 repos）
+## 専用スキル集（導入候補）（27 repos）
 
-### [obra/superpowers](https://github.com/obra/superpowers) — 15 skills ★311287
+### [obra/superpowers](https://github.com/obra/superpowers) — 15 skills ★311324
 > 開発方法論のスキル集
 An agentic skills framework & software development methodology that works.
 - **brainstorming** (`skills/brainstorming`) — You MUST use this before any creative work - creating features, building components, adding function
@@ -24,7 +24,7 @@ An agentic skills framework & software development methodology that works.
 - **writing-plans** (`skills/writing-plans`) — Use when you have a spec or requirements for a multi-step task, before touching code
 - **writing-skills** (`skills/writing-skills`) — Use when creating new skills, editing existing skills, or verifying skills work before deployment
 
-### [mattpocock/skills](https://github.com/mattpocock/skills) — 39 skills ★310320
+### [mattpocock/skills](https://github.com/mattpocock/skills) — 39 skills ★310379
 > 実務エンジニアリングのスキル集
 Skills for Real Engineers. Straight from my .agents directory.
 - **ask-matt** (`skills/engineering/ask-matt`) — Ask which skill or flow fits your situation. A router over the skills in this repo.
@@ -67,12 +67,12 @@ Skills for Real Engineers. Straight from my .agents directory.
 - **wait-what** (`skills/productivity/wait-what`) — Stop. That last message did not land: re-pitch it.
 - **writing-for-agents** (`skills/productivity/writing-for-agents`) — Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.
 
-### [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — 1 skills ★228581
+### [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — 1 skills ★228606
 > Karpathy 流ガイドライン
 A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 - **karpathy-guidelines** (`skills/karpathy-guidelines`) — Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactor
 
-### [anthropics/skills](https://github.com/anthropics/skills) — 20 skills ★186799
+### [anthropics/skills](https://github.com/anthropics/skills) — 20 skills ★186823
 > Anthropic 公式のスキル集
 Public repository for Agent Skills
 - **academy-guide** (`skills/academy-guide`) — >
@@ -96,7 +96,7 @@ Public repository for Agent Skills
 - **xlsx** (`skills/xlsx`) — Use this skill any time a spreadsheet file is the primary input or output. This means any task where
 - **template-skill** (`template`) — Replace with description of the skill and when Claude should use it.
 
-### [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — 12 skills ★182950
+### [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — 13 skills ★182991
 > 最小実装を促す行動スキル集
 Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 - **ponytail-audit** (`.openclaw/skills/ponytail-audit`) — Quality audit of the whole repo: bugs, security, real load, missing tests, speed, and what to delete
@@ -105,6 +105,7 @@ Makes your AI agent think like the laziest senior dev in the room. The best code
 - **ponytail-help** (`.openclaw/skills/ponytail-help`) — Quick reference for ponytail's modes, skills, and commands. One-shot display.
 - **ponytail-review** (`.openclaw/skills/ponytail-review`) — Quality review of a diff: bugs, security, real load, missing tests, speed, and what to delete. Each 
 - **ponytail** (`.openclaw/skills/ponytail`) — Lazy senior dev mode for any coding task: the smallest change that fully solves it, and a reply a bu
+- **caveman** (`.`) — >
 - **ponytail-audit** (`skills/ponytail-audit`) — >
 - **ponytail-debt** (`skills/ponytail-debt`) — >
 - **ponytail-gain** (`skills/ponytail-gain`) — >
@@ -112,23 +113,23 @@ Makes your AI agent think like the laziest senior dev in the room. The best code
 - **ponytail-review** (`skills/ponytail-review`) — >
 - **ponytail** (`skills/ponytail`) — >
 
-### [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — 1 skills ★66381
+### [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — 1 skills ★66388
 > 直近30日の話題リサーチ
 AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
 - **last30days** (`skills/last30days`) — Research what people actually say about any topic in the last 30 days. Pulls posts and engagement fr
 
-### [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 1 skills ★64393
+### [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 1 skills ★64413
 > 図解デザイン
 Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 - **diagram-design** (`skills/diagram-design`) — Create branded architecture, architecture delta, IT current-state, flowchart, sequence, state machin
 
-### [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — 2 skills ★59841
+### [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — 2 skills ★59846
 > ADHD 配慮の出力スキル
 A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 - **i-have-adhd** (`.cursor/skills/i-have-adhd`) — Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate stat
 - **i-have-adhd** (`skills/i-have-adhd`) — Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate stat
 
-### [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) — 4 skills ★54123
+### [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) — 4 skills ★54124
 > 財務系サンプルスキル（custom_skills の3件）
 A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
 - **cookbook-audit** (`.claude/skills/cookbook-audit`) — Audit an Anthropic Cookbook notebook based on a rubric. Use whenever a notebook review or audit is r
@@ -136,7 +137,7 @@ A collection of notebooks/recipes showcasing some fun and effective ways of usin
 - **applying-brand-guidelines** (`skills/custom_skills/applying-brand-guidelines`) — This skill applies consistent corporate branding and styling to all generated documents including co
 - **creating-financial-models** (`skills/custom_skills/creating-financial-models`) — This skill provides an advanced financial modeling suite with DCF analysis, sensitivity testing, Mon
 
-### [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — 6 skills ★50651
+### [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — 6 skills ★50655
 > Obsidian 用スキル集
 Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.
 - **defuddle** (`skills/defuddle`) — Extract clean Markdown from HTML pages with Defuddle CLI.
@@ -146,28 +147,28 @@ Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats
 - **obsidian-cli** (`skills/obsidian-cli`) — Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, task
 - **obsidian-markdown** (`skills/obsidian-markdown`) — Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other O
 
-### [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) — 1 skills ★38579
+### [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) — 1 skills ★38581
 > LLM のハード適合アドバイザ
 Hundreds of models & providers. One command to find what runs on your hardware.
 - **llmfit-advisor** (`skills/llmfit-advisor`) — Detect local hardware (RAM, CPU, GPU/VRAM) and recommend the best-fit local LLM models with optimal 
 
-### [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — 1 skills ★36793
+### [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — 1 skills ★36798
 > 書籍 PDF をスキル化
 Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-- **book-to-skill** (`SKILL.md`) — Converts books and documents (PDF, EPUB, DOCX, HTML, Markdown, plain text, RTF, MOBI/AZW with Calibr
+- **book-to-skill** (`.`) — Converts books and documents (PDF, EPUB, DOCX, HTML, Markdown, plain text, RTF, MOBI/AZW with Calibr
 
 ### [abiosoft/colima](https://github.com/abiosoft/colima) — 1 skills ★31496
 > colima 利用スキル（M1 で利用中）
 Container runtimes on macOS (and Linux) with minimal setup
 - **colima** (`skills`) — >-
 
-### [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — 2 skills ★26028
+### [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — 2 skills ★26032
 > 透かし除去・文面クリーニング
 A privacy-first app that strips AI watermarks from content you own.
 - **clean-user-facing-text** (`skills/clean-user-facing-text`) — Clean and finalize authorized natural-language text intended for readers by auditing suspicious invi
 - **remove-ai-marks** (`skills/remove-ai-marks`) — >
 
-### [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — 12 skills ★25040
+### [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — 12 skills ★25056
 > CAD / 3D プリント系スキル集
 Design physical products with AI
 - **bambu-labs** (`skills/bambu-labs`) — Send prints to Bambu Lab printers through Bambu Connect, Bambu Lab's official app for printing from 
@@ -183,17 +184,17 @@ Design physical products with AI
 - **step-parts** (`skills/step-parts`) — >-
 - **urdf** (`skills/urdf`) — URDF robot description authoring and validation. Use when creating, editing, inspecting, validating,
 
-### [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) — 1 skills ★24151
+### [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) — 1 skills ★24166
 > 等角分解イラスト（Hermes 導入済み）
 An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.
-- **anatomy** (`SKILL.md`) — Build crafted, highly detailed, interactive isometric SVG figures that explain a technical idea as a
+- **anatomy** (`.`) — Build crafted, highly detailed, interactive isometric SVG figures that explain a technical idea as a
 
 ### [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — 1 skills ★23320
 > 文書→Markdown 変換
 Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.
 - **convert-documents-to-markdown** (`skills/convert-documents-to-markdown`) — Convert Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx), OpenDocument (.odt, .ods,
 
-### [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) — 16 skills ★16096
+### [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) — 16 skills ★16098
 > Obsidian 第二の脳スキル集
 Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.
 - **autoresearch** (`skills/autoresearch`) — Run a bounded, source-grounded research loop, draft a cited dossier, and optionally propose a separa
@@ -213,7 +214,7 @@ Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and 
 - **wiki** (`skills/wiki`) — Initialize, adopt, and route work for a separate Obsidian knowledge vault through the portable claud
 - **example** (`tests/fixtures/contracts/valid/skills/example`) — Hermetic contract-validation fixture.
 
-### [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) — 6 skills ★13539
+### [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) — 6 skills ★13543
 > デザイン・知識検索等のスキル集
 ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.
 - **beautiful-article** (`skills/beautiful-article`) — 把用户提供的素材（网页 URL / PDF / DOCX / Markdown / 纯文本 / 截图 / 粘贴材料）编辑、设计成一篇美丽的、可离线打开和分享的**单文件 HTML 网页文章**。基于 
@@ -223,17 +224,17 @@ ConardLi's open-source Skills collection, featuring web design, knowledge retrie
 - **web-design-engineer** (`skills/web-design-engineer`) — Build or redesign polished browser-rendered visual artifacts with HTML/CSS/JavaScript/React: pages, 
 - **web-video-presentation** (`skills/web-video-presentation`) — 把一篇文章或口播稿，做成"看起来像视频"的点击驱动 16:9 网页演示，可选合成口播音频。流程：原始文章 → **一次产出**口播稿 + outline 开发计划 → 用户**一次对齐** 5 件事（
 
-### [heydamir/unslop](https://github.com/heydamir/unslop) — 1 skills ★6368
+### [heydamir/unslop](https://github.com/heydamir/unslop) — 1 skills ★6435
 > UI の AI っぽさを取るスキル（導入済み）
 A Claude skill that turns vibecoded, AI-looking UI into a designed interface
 - **unslop** (`skills/unslop`) — Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction f
 
-### [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) — 1 skills ★5118
+### [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) — 1 skills ★5120
 > Obsidian 永続メモリ
 Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.
-- **obsidian-second-brain** (`SKILL.md`) — >
+- **obsidian-second-brain** (`.`) — >
 
-### [AvdLee/SwiftUI-Agent-Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) — 2 skills ★3812
+### [AvdLee/SwiftUI-Agent-Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) — 2 skills ★3813
 > SwiftUI ベストプラクティス
 Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).
 - **update-swiftui-apis** (`.agents/skills/update-swiftui-apis`) — Scan Apple's SwiftUI documentation for deprecated APIs and update the SwiftUI Expert Skill with mode
@@ -244,25 +245,29 @@ Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills 
 Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation.
 - **documd-visuals** (`documd-visuals`) — >
 
-### [nanaism/yomiyasu](https://github.com/nanaism/yomiyasu) — 1 skills ★2815
+### [nanaism/yomiyasu](https://github.com/nanaism/yomiyasu) — 1 skills ★2817
 > 日本語推敲スキル
 AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese
 - **yomiyasu** (`skills/yomiyasu`) — AIが生成した日本語を推敲するスキル。利用者が yomiyasu の名前を出して頼んだとき（「/yomiyasu」、「$yomiyasu:yomiyasu」、「yomiyasu で推敲して」など）と、
 
-### [academa-labs/manimgx](https://github.com/academa-labs/manimgx) — 1 skills ★2476
+### [academa-labs/manimgx](https://github.com/academa-labs/manimgx) — 1 skills ★2477
 > Manim アニメーション
 The animation engine for agents: blazingly fast math and 3D videos with Manim's Python API, on a Rust GPU core.
 - **manimgx** (`skills/manimgx`) — Create and refine mathematical or 3D animations in Python with ManimGX, including scene authoring, l
 
-### [enesozturk/dimensional-drawing](https://github.com/enesozturk/dimensional-drawing) — 2 skills ★1753
+### [enesozturk/dimensional-drawing](https://github.com/enesozturk/dimensional-drawing) — 2 skills ★1755
 > 寸法図スキル（導入済み）
 Create Apple style dimensional drawings of UI components.
 - **dimensional-drawing-motion** (`skills/dimensional-drawing-motion`) — Turn a finished dimensional drawing sheet into a ~10 s Apple-style motion film — lines draw themselv
 - **dimensional-drawing** (`skills/dimensional-drawing`) — Make an Apple-style monochrome dimensional drawing of a UI component or physical product — title-blo
 
+### [taisukey/chat-map](https://github.com/taisukey/chat-map) — 1 skills ★1
+Agent skill: map your chat threads (main + side chats) as a graph x historic timeline — branches, handovers, recurring deliveries
+- **chat-map** (`.`) — Draw the user's conversation landscape as one map — every chat thread as a node, branch / handover /
+
 ## コレクション（1 repos）
 
-### [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — 864 skills ★78607
+### [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — 864 skills ★78609
 > キュレーション一覧＋Composio 自動化スキル 864 件
 A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 - **artifacts-builder** (`artifacts-builder`) — Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern fronten
@@ -1025,7 +1030,7 @@ A curated list of awesome Claude Skills, resources, and tools for customizing Cl
 - **tinyurl-automation** (`composio-skills/tinyurl-automation`) — Automate Tinyurl tasks via Rube MCP (Composio). Always search tools first for current schemas.
 - **tisane-automation** (`composio-skills/tisane-automation`) — Automate Tisane tasks via Rube MCP (Composio). Always search tools first for current schemas.
 - **Toggl Automation** (`composio-skills/toggl-automation`) — Automate time tracking workflows in Toggl Track -- create time entries, manage projects, clients, ta
-- **None** (`composio-skills/token-metrics-automation`) — 
+- **token-metrics-automation** (`composio-skills/token-metrics-automation`) — Automate Token Metrics tasks via Rube MCP (Composio). Always search tools first for current schemas.
 - **tomba-automation** (`composio-skills/tomba-automation`) — Automate Tomba tasks via Rube MCP (Composio). Always search tools first for current schemas.
 - **tomtom-automation** (`composio-skills/tomtom-automation`) — Automate Tomtom tasks via Rube MCP (Composio). Always search tools first for current schemas.
 - **toneden-automation** (`composio-skills/toneden-automation`) — Automate Toneden tasks via Rube MCP (Composio). Always search tools first for current schemas.
@@ -1130,9 +1135,9 @@ A curated list of awesome Claude Skills, resources, and tools for customizing Cl
 - **youtube-downloader** (`video-downloader`) — Download YouTube videos with customizable quality and format options. Use this skill when the user a
 - **webapp-testing** (`webapp-testing`) — Toolkit for interacting with and testing local web applications using Playwright. Supports verifying
 
-## エージェント同梱（3 repos）
+## エージェント同梱（1 repos）
 
-### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 194 skills ★259904
+### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 194 skills ★259919
 > Hermes 本体のスキルライブラリ（optional-skills が追加プール）
 The agent that grows with you
 - **agent-merge-conflict-arbiter** (`optional-skills/autonomous-ai-agents/agent-merge-conflict-arbiter`) — Neutral arbiter for merge conflicts between two agents.
@@ -1243,7 +1248,7 @@ The agent that grows with you
 - **property-listings** (`optional-skills/productivity/property-listings`) — Present property and rental listings as desktop cards.
 - **shop** (`optional-skills/productivity/shop`) — Shop catalog search, checkout, order tracking, returns.
 - **shopify** (`optional-skills/productivity/shopify`) — Query Shopify Admin/Storefront GraphQL APIs via curl.
-- **None** (`optional-skills/productivity/siyuan`) — 
+- **siyuan** (`optional-skills/productivity/siyuan`) — Query and edit a SiYuan knowledge base via its API.
 - **telephony** (`optional-skills/productivity/telephony`) — Provision Twilio numbers, SMS/MMS, and AI outbound calls.
 - **bioinformatics** (`optional-skills/research/bioinformatics`) — Gateway to 400+ genomics and computational biology skills.
 - **blogwatcher** (`optional-skills/research/blogwatcher`) — Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.
@@ -1253,8 +1258,8 @@ The agent that grows with you
 - **duckduckgo-search** (`optional-skills/research/duckduckgo-search`) — Free keyless web, news, and image search via ddgs.
 - **gitnexus-explorer** (`optional-skills/research/gitnexus-explorer`) — Serve an interactive codebase knowledge graph web UI.
 - **llm-wiki** (`optional-skills/research/llm-wiki`) — Karpathy's LLM Wiki: build/query interlinked markdown KB.
-- **None** (`optional-skills/research/osint-investigation`) — 
-- **None** (`optional-skills/research/parallel-cli`) — 
+- **osint-investigation** (`optional-skills/research/osint-investigation`) — Follow the money via public records and sanctions data.
+- **parallel-cli** (`optional-skills/research/parallel-cli`) — Agent-native web search, deep research, and enrichment.
 - **qmd** (`optional-skills/research/qmd`) — Hybrid local search over notes, docs, and transcripts.
 - **research-paper-writing** (`optional-skills/research/research-paper-writing`) — Write ML papers for NeurIPS/ICML/ICLR: design→submit.
 - **rss-feeds** (`optional-skills/research/rss-feeds`) — Read RSS, Atom, JSON feeds; discover feeds behind a page.
@@ -1330,151 +1335,92 @@ The agent that grows with you
 - **test-driven-development** (`skills/software-development/test-driven-development`) — TDD: enforce RED-GREEN-REFACTOR, tests before code.
 - **blocked-page-recovery** (`skills/web/blocked-page-recovery`) — Use when a fetch fails: 403/429, paywall, WAF, bot wall.
 
-### [anomalyco/opencode](https://github.com/anomalyco/opencode) — 24 skills ★224135
-The open source coding agent.
-- **app-e2e-tests** (`.opencode/skills/app-e2e-tests`) — Use when writing, changing, reviewing, or debugging Playwright e2e tests in packages/app/e2e (regres
-- **component-tests** (`.opencode/skills/component-tests`) — Use when writing, changing, debugging, or reviewing the Playwright component tests that mount storie
-- **effect** (`.opencode/skills/effect`) — Work with Effect v4 TypeScript code in this repo
-- **opencode-dev** (`.opencode/skills/opencode-dev`) — Use when interactively running, debugging, or verifying opencode's own CLI/TUI or server during deve
-- **rtl-aware-development** (`.opencode/skills/rtl-aware-development`) — OpenCode Desktop should be RTL-aware. Use when implementing or reviewing RTL/LTR behavior in the web
-- **sample-skill** (`.opencode/skills/sample-skill`) — Use when the user says sample skill, skill demo, or asks how an opencode SKILL.md should be structur
-- **tui-tests** (`.opencode/skills/tui-tests`) — Use when writing, fixing, or reviewing tests that render OpenTUI (testRender, createTestRenderer, cr
-- **unit-tests** (`.opencode/skills/unit-tests`) — Use when writing, reviewing, speeding up, or fixing a flaky `bun test` unit test in any package (cor
-- **first** (`packages/core/test/config/fixture/skills/first-source/first`) — First skill
-- **second** (`packages/core/test/config/fixture/skills/second-source/second`) — Second skill
-- **figma-code-connect** (`packages/plugins/figma/skills/figma-code-connect`) — Creates and maintains Figma Code Connect template files that map Figma components to code snippets. 
-- **figma-create-new-file** (`packages/plugins/figma/skills/figma-create-new-file`) — Always use this skill when the user wants to create a new Figma Design, FigJam, or Slides file. You 
-- **figma-design-to-code** (`packages/plugins/figma/skills/figma-design-to-code`) — **MANDATORY prerequisite** — you MUST invoke this skill BEFORE calling the `get_design_context` Figm
-- **figma-generate-design** (`packages/plugins/figma/skills/figma-generate-design`) — Use this skill alongside figma-use when the task involves translating an application page, view, or 
-- **figma-generate-diagram** (`packages/plugins/figma/skills/figma-generate-diagram`) — MANDATORY prerequisite — load this skill BEFORE every `generate_diagram` tool call. NEVER call `gene
-- **figma-generate-library** (`packages/plugins/figma/skills/figma-generate-library`) — Build or update a professional-grade design system in Figma from a codebase. Use when the user wants
-- **figma-generative-plugins** (`packages/plugins/figma/skills/figma-generative-plugins`) — **MANDATORY prerequisite** — load this skill before calling `create_generative_plugin` or `update_ge
-- **figma-implement-motion** (`packages/plugins/figma/skills/figma-implement-motion`) — Translates Figma motion and animations into production-ready application code. Use when implementing
-- **figma-shaders** (`packages/plugins/figma/skills/figma-shaders`) — **MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use 
-- **figma-swiftui** (`packages/plugins/figma/skills/figma-swiftui`) — SwiftUI ↔ Figma translation. Use whenever the user mentions Swift, SwiftUI, iOS, iPhone, or iPad — i
-- **figma-use-figjam** (`packages/plugins/figma/skills/figma-use-figjam`) — This skill helps agents use Figma's use_figma MCP tool in the FigJam context. Can be used alongside 
-- **figma-use-motion** (`packages/plugins/figma/skills/figma-use-motion`) — Motion / animation context for the `use_figma` MCP tool — animating Figma nodes via manual keyframes
-- **figma-use-slides** (`packages/plugins/figma/skills/figma-use-slides`) — This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside 
-- **figma-use** (`packages/plugins/figma/skills/figma-use`) — **MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER ca
+## 製品スコープ（通常は入れない）（33 repos）
 
-### [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) — 25 skills ★108685
-An open-source AI agent that brings the power of Gemini directly into your terminal.
-- **agent-tui** (`.gemini/skills/agent-tui`) — >
-- **async-pr-review** (`.gemini/skills/async-pr-review`) — Trigger this skill when the user wants to start an asynchronous PR review, run background checks on 
-- **behavioral-evals** (`.gemini/skills/behavioral-evals`) — Guidance for creating, running, fixing, and promoting behavioral evaluations. Use when verifying age
-- **ci** (`.gemini/skills/ci`) — A specialized skill for Gemini CLI that provides high-performance, fail-fast
-- **code-reviewer** (`.gemini/skills/code-reviewer`) — Use this skill to review code. It supports both local changes (staged or working tree)
-- **docs-changelog** (`.gemini/skills/docs-changelog`) — >-
-- **docs-writer** (`.gemini/skills/docs-writer`) — Always use this skill when the task involves writing, reviewing, or editing
-- **github-issue-creator** (`.gemini/skills/github-issue-creator`) — Use this skill when asked to create a GitHub issue. It handles different issue
-- **pr-address-comments** (`.gemini/skills/pr-address-comments`) — Use this skill if the user asks you to help them address GitHub PR comments for their current branch
-- **pr-creator** (`.gemini/skills/pr-creator`) — Use this skill when asked to create a pull request (PR). It ensures all PRs
-- **review-duplication** (`.gemini/skills/review-duplication`) — Use this skill during code reviews to proactively investigate the codebase for duplicated functional
-- **string-reviewer** (`.gemini/skills/string-reviewer`) — >
-- **tui-tester** (`.gemini/skills/tui-tester`) — Expert guidance for testing Gemini CLI behavior and visual output using terminal automation.
-- **greeter** (`packages/cli/src/commands/extensions/examples/skills/skills/greeter`) — A friendly greeter skill
-- **antigravity-support** (`packages/core/src/skills/builtin/antigravity-support`) — Use when the user asks questions, seeks help, or requests instructions related
-- **skill-creator** (`packages/core/src/skills/builtin/skill-creator`) — Guide for creating effective skills. This skill should be used when users want
-- **pirate-skill** (`packages/sdk/test-data/skills/pirate-skill`) — Speak like a pirate.
-- **code_explorer** (`tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/code_explorer`) — Explores the repository to locate primary source files, coupled UI components, and test files for bu
-- **effort** (`tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/effort`) — Estimates the implementation effort required to address the given issue.
-- **quality** (`tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/quality`) — Evaluates whether a GitHub issue is spam, empty, needs more information, or is OK to proceed.
-- **spec_generator** (`tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/spec_generator`) — Generates a structured Workable Spec JSON to guide a Developer Worker.
-- **critique** (`tools/gemini-cli-bot/.gemini/skills/critique`) — Expertise in auditing and fixing repository scripts and GitHub Actions workflows to ensure technical
-- **memory** (`tools/gemini-cli-bot/.gemini/skills/memory`) — Expertise in maintaining persistent bot memory, synchronizing with previous sessions via the Task Le
-- **metrics** (`tools/gemini-cli-bot/.gemini/skills/metrics`) — Expertise in analyzing time-series repository health metrics, investigating root causes, and proposi
-- **prs** (`tools/gemini-cli-bot/.gemini/skills/prs`) — Expertise in managing the Git and GitHub Pull Request lifecycle, including staging changes, generati
-
-## 製品スコープ（通常は入れない）（30 repos）
-
-### [morluto/rea](https://github.com/morluto/rea) — 5 skills ★423300
+### [morluto/rea](https://github.com/morluto/rea) — 5 skills ★423531
 Reverse engineer anything with agents, from app behavior down to native binaries.
 
-### [react/react](https://github.com/react/react) — 14 skills ★251878
-> 製品スコープ（ヒューリスティクス判定）
+### [react/react](https://github.com/react/react) — 14 skills ★251881
 The library for web and native user interfaces.
 
-### [n8n-io/n8n](https://github.com/n8n-io/n8n) — 40 skills ★209406
+### [anomalyco/opencode](https://github.com/anomalyco/opencode) — 24 skills ★224148
+The open source coding agent.
+
+### [n8n-io/n8n](https://github.com/n8n-io/n8n) — 40 skills ★209412
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
-### [vercel/next.js](https://github.com/vercel/next.js) — 27 skills ★143235
-> 製品スコープ（ヒューリスティクス判定）
+### [vercel/next.js](https://github.com/vercel/next.js) — 27 skills ★143238
 The React Framework
 
 ### [nodejs/node](https://github.com/nodejs/node) — 28 skills ★123202
 Node.js JavaScript runtime ✨🐢🚀✨
 
-### [earendil-works/pi](https://github.com/earendil-works/pi) — 17 skills ★119628
+### [earendil-works/pi](https://github.com/earendil-works/pi) — 17 skills ★119643
 AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 
-### [supabase/supabase](https://github.com/supabase/supabase) — 24 skills ★114458
-> 製品スコープ（ヒューリスティクス判定）
+### [supabase/supabase](https://github.com/supabase/supabase) — 24 skills ★114462
 The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
 
 ### [microsoft/TypeScript](https://github.com/microsoft/TypeScript) — 4 skills ★111723
 TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 
+### [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) — 25 skills ★108686
+An open-source AI agent that brings the power of Gemini directly into your terminal.
+
 ### [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — 1 skills ★95792
 JavaScript API for Chrome and Firefox
 
-### [grafana/grafana](https://github.com/grafana/grafana) — 3 skills ★77649
+### [grafana/grafana](https://github.com/grafana/grafana) — 3 skills ★77650
 The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. 
 
-### [tw93/Mole](https://github.com/tw93/Mole) — 6 skills ★73662
-> 製品スコープ（ヒューリスティクス判定）
+### [tw93/Mole](https://github.com/tw93/Mole) — 6 skills ★73667
 🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.
 
-### [ansible/ansible](https://github.com/ansible/ansible) — 4 skills ★71221
+### [ansible/ansible](https://github.com/ansible/ansible) — 4 skills ★71220
 Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
 
-### [BerriAI/litellm](https://github.com/BerriAI/litellm) — 11 skills ★62583
-> 製品スコープ（ヒューリスティクス判定）
+### [BerriAI/litellm](https://github.com/BerriAI/litellm) — 11 skills ★62590
 The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
 
-### [MemPalace/mempalace](https://github.com/MemPalace/mempalace) — 15 skills ★60273
-> 製品スコープ（ヒューリスティクス判定）
+### [MemPalace/mempalace](https://github.com/MemPalace/mempalace) — 15 skills ★60276
 The best-benchmarked open-source AI memory system. And it's free.
 
-### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) — 20 skills ★58103
-> 製品スコープ（ヒューリスティクス判定）
+### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) — 20 skills ★58115
 Hindsight: Agent Memory That Learns
 
-### [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) — 11 skills ★45294
-> 製品スコープ（ヒューリスティクス判定）
+### [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) — 11 skills ★45299
 Browser automation CLI for AI agents
 
-### [pingdotgg/t3code](https://github.com/pingdotgg/t3code) — 15 skills ★42155
-> 製品スコープ（ヒューリスティクス判定）
+### [pingdotgg/t3code](https://github.com/pingdotgg/t3code) — 15 skills ★42280
 
-### [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) — 1 skills ★29070
+### [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) — 1 skills ★29073
 The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.
 
-### [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — 4 skills ★28693
+### [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — 4 skills ★28692
 A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.
 
-### [virattt/dexter](https://github.com/virattt/dexter) — 3 skills ★27753
+### [virattt/dexter](https://github.com/virattt/dexter) — 3 skills ★27754
 An autonomous agent for deep financial research
 
-### [steipete/CodexBar](https://github.com/steipete/CodexBar) — 3 skills ★22957
+### [steipete/CodexBar](https://github.com/steipete/CodexBar) — 3 skills ★22959
 Show usage stats for OpenAI Codex and Claude Code, without having to login.
 
-### [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) — 29 skills ★20984
-> 製品スコープ（ヒューリスティクス判定）
+### [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) — 29 skills ★20985
 OpenShell is the safe, private runtime for autonomous AI agents.
 
-### [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) — 17 skills ★13203
-> 製品スコープ（ヒューリスティクス判定）
+### [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) — 2 skills ★13967
+Towards a More Autonomous Agent System
+
+### [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) — 17 skills ★13215
 SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.
 
 ### [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM) — 18 skills ★11783
-> 製品スコープ（ヒューリスティクス判定）
 MiniCPM5: SOTA on-device LLMs, small yet powerful.
 
 ### [microsoft/inshellisense](https://github.com/microsoft/inshellisense) — 1 skills ★10753
 IDE style command line auto complete
 
-### [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) — 8 skills ★10083
-> 製品スコープ（ヒューリスティクス判定）
+### [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) — 8 skills ★10306
 Computer use CLI for AI agents
 
 ### [bluesky-social/atproto](https://github.com/bluesky-social/atproto) — 9 skills ★9714
