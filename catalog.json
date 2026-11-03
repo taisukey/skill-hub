@@ -1,5 +1,14 @@
 {
  "repos": {
+  "kajisho5/ffmpeg-skill": {
+   "class": "dedicated",
+   "note": "",
+   "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+   "stars": 4434,
+   "url": "https://github.com/kajisho5/ffmpeg-skill",
+   "skill_count": 14,
+   "branch": "main"
+  },
   "taisukey/chat-map": {
    "class": "dedicated",
    "note": "",
@@ -13,7 +22,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Towards a More Autonomous Agent System",
-   "stars": 13967,
+   "stars": 15978,
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "skill_count": 2,
    "branch": "main"
@@ -22,7 +31,7 @@
    "class": "dedicated",
    "note": "UI の AI っぽさを取るスキル（導入済み）",
    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-   "stars": 6435,
+   "stars": 7098,
    "url": "https://github.com/heydamir/unslop",
    "skill_count": 1,
    "branch": "main"
@@ -31,25 +40,16 @@
    "class": "product-internal",
    "note": "",
    "description": "Computer use CLI for AI agents",
-   "stars": 10306,
+   "stars": 11909,
    "url": "https://github.com/vercel-labs/agent-desktop",
    "skill_count": 8,
-   "branch": "main"
-  },
-  "anthropics/skills": {
-   "class": "dedicated",
-   "note": "Anthropic 公式のスキル集",
-   "description": "Public repository for Agent Skills",
-   "stars": 186823,
-   "url": "https://github.com/anthropics/skills",
-   "skill_count": 20,
    "branch": "main"
   },
   "MemPalace/mempalace": {
    "class": "product-internal",
    "note": "",
    "description": "The best-benchmarked open-source AI memory system. And it's free.",
-   "stars": 60276,
+   "stars": 60317,
    "url": "https://github.com/MemPalace/mempalace",
    "skill_count": 15,
    "branch": "develop"
@@ -58,7 +58,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Hindsight: Agent Memory That Learns",
-   "stars": 58115,
+   "stars": 58373,
    "url": "https://github.com/vectorize-io/hindsight",
    "skill_count": 20,
    "branch": "main"
@@ -67,7 +67,7 @@
    "class": "dedicated",
    "note": "Manim アニメーション",
    "description": "The animation engine for agents: blazingly fast math and 3D videos with Manim's Python API, on a Rust GPU core.",
-   "stars": 2477,
+   "stars": 2498,
    "url": "https://github.com/academa-labs/manimgx",
    "skill_count": 1,
    "branch": "main"
@@ -76,7 +76,7 @@
    "class": "dedicated",
    "note": "等角分解イラスト（Hermes 導入済み）",
    "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-   "stars": 24166,
+   "stars": 24345,
    "url": "https://github.com/wheresryan22/anatomy",
    "skill_count": 1,
    "branch": "main"
@@ -85,7 +85,7 @@
    "class": "dedicated",
    "note": "寸法図スキル（導入済み）",
    "description": "Create Apple style dimensional drawings of UI components.",
-   "stars": 1755,
+   "stars": 1763,
    "url": "https://github.com/enesozturk/dimensional-drawing",
    "skill_count": 2,
    "branch": "main"
@@ -94,7 +94,7 @@
    "class": "dedicated",
    "note": "colima 利用スキル（M1 で利用中）",
    "description": "Container runtimes on macOS (and Linux) with minimal setup",
-   "stars": 31496,
+   "stars": 31508,
    "url": "https://github.com/abiosoft/colima",
    "skill_count": 1,
    "branch": "main"
@@ -103,7 +103,7 @@
    "class": "dedicated",
    "note": "日本語推敲スキル",
    "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-   "stars": 2817,
+   "stars": 2828,
    "url": "https://github.com/nanaism/yomiyasu",
    "skill_count": 1,
    "branch": "main"
@@ -112,7 +112,7 @@
    "class": "dedicated",
    "note": "実務エンジニアリングのスキル集",
    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-   "stars": 310379,
+   "stars": 311018,
    "url": "https://github.com/mattpocock/skills",
    "skill_count": 39,
    "branch": "main"
@@ -121,7 +121,7 @@
    "class": "dedicated",
    "note": "開発方法論のスキル集",
    "description": "An agentic skills framework & software development methodology that works.",
-   "stars": 311324,
+   "stars": 311658,
    "url": "https://github.com/obra/superpowers",
    "skill_count": 15,
    "branch": "main"
@@ -130,7 +130,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-   "stars": 22959,
+   "stars": 22968,
    "url": "https://github.com/steipete/CodexBar",
    "skill_count": 3,
    "branch": "main"
@@ -139,43 +139,25 @@
    "class": "product-internal",
    "note": "",
    "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-   "stars": 13215,
+   "stars": 13321,
    "url": "https://github.com/tangency-labs/solidcraft",
    "skill_count": 17,
-   "branch": "main"
-  },
-  "pingdotgg/t3code": {
-   "class": "product-internal",
-   "note": "",
-   "description": "",
-   "stars": 42280,
-   "url": "https://github.com/pingdotgg/t3code",
-   "skill_count": 15,
    "branch": "main"
   },
   "morluto/rea": {
    "class": "product-internal",
    "note": "",
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-   "stars": 423531,
+   "stars": 425776,
    "url": "https://github.com/morluto/rea",
    "skill_count": 5,
-   "branch": "main"
-  },
-  "ashhart/TensorFold": {
-   "class": "product-internal",
-   "note": "",
-   "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-   "stars": 1610,
-   "url": "https://github.com/ashhart/TensorFold",
-   "skill_count": 2,
    "branch": "main"
   },
   "cathrynlavery/diagram-design": {
    "class": "dedicated",
    "note": "図解デザイン",
    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-   "stars": 64413,
+   "stars": 64575,
    "url": "https://github.com/cathrynlavery/diagram-design",
    "skill_count": 1,
    "branch": "main"
@@ -184,7 +166,7 @@
    "class": "dedicated",
    "note": "書籍 PDF をスキル化",
    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-   "stars": 36798,
+   "stars": 36849,
    "url": "https://github.com/virgiliojr94/book-to-skill",
    "skill_count": 1,
    "branch": "master"
@@ -193,7 +175,7 @@
    "class": "dedicated",
    "note": "ADHD 配慮の出力スキル",
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-   "stars": 59846,
+   "stars": 59906,
    "url": "https://github.com/ayghri/i-have-adhd",
    "skill_count": 2,
    "branch": "main"
@@ -202,25 +184,16 @@
    "class": "product-internal",
    "note": "",
    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-   "stars": 20985,
+   "stars": 21026,
    "url": "https://github.com/NVIDIA/OpenShell",
    "skill_count": 29,
-   "branch": "main"
-  },
-  "OpenBMB/MiniCPM": {
-   "class": "product-internal",
-   "note": "",
-   "description": "MiniCPM5: SOTA on-device LLMs, small yet powerful.",
-   "stars": 11783,
-   "url": "https://github.com/OpenBMB/MiniCPM",
-   "skill_count": 18,
    "branch": "main"
   },
   "firecrawl/anydoc": {
    "class": "dedicated",
    "note": "文書→Markdown 変換",
    "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-   "stars": 23320,
+   "stars": 23330,
    "url": "https://github.com/firecrawl/anydoc",
    "skill_count": 1,
    "branch": "main"
@@ -229,7 +202,7 @@
    "class": "dedicated",
    "note": "LLM のハード適合アドバイザ",
    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-   "stars": 38581,
+   "stars": 38608,
    "url": "https://github.com/AlexsJones/llmfit",
    "skill_count": 1,
    "branch": "main"
@@ -238,7 +211,7 @@
    "class": "product-internal",
    "note": "",
    "description": "IDE style command line auto complete",
-   "stars": 10753,
+   "stars": 10754,
    "url": "https://github.com/microsoft/inshellisense",
    "skill_count": 1,
    "branch": "main"
@@ -247,7 +220,7 @@
    "class": "dedicated",
    "note": "透かし除去・文面クリーニング",
    "description": "A privacy-first app that strips AI watermarks from content you own.",
-   "stars": 26032,
+   "stars": 26095,
    "url": "https://github.com/guillaumemeyer/watermarks-remover",
    "skill_count": 2,
    "branch": "main"
@@ -256,7 +229,7 @@
    "class": "dedicated",
    "note": "最小実装を促す行動スキル集",
    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-   "stars": 182991,
+   "stars": 183450,
    "url": "https://github.com/DietrichGebert/ponytail",
    "skill_count": 13,
    "branch": "main"
@@ -265,7 +238,7 @@
    "class": "dedicated",
    "note": "CAD / 3D プリント系スキル集",
    "description": "Design physical products with AI",
-   "stars": 25056,
+   "stars": 25160,
    "url": "https://github.com/earthtojake/text-to-cad",
    "skill_count": 12,
    "branch": "main"
@@ -274,7 +247,7 @@
    "class": "dedicated",
    "note": "Obsidian 第二の脳スキル集",
    "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
-   "stars": 16098,
+   "stars": 16115,
    "url": "https://github.com/AgriciDaniel/claude-obsidian",
    "skill_count": 16,
    "branch": "main"
@@ -283,7 +256,7 @@
    "class": "product-internal",
    "note": "",
    "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-   "stars": 28692,
+   "stars": 28702,
    "url": "https://github.com/google-labs-code/design.md",
    "skill_count": 4,
    "branch": "main"
@@ -301,7 +274,7 @@
    "class": "dedicated",
    "note": "図解・可視化",
    "description": "Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation.",
-   "stars": 3392,
+   "stars": 3394,
    "url": "https://github.com/markdown-viewer/skills",
    "skill_count": 1,
    "branch": "main"
@@ -310,7 +283,7 @@
    "class": "dedicated",
    "note": "Obsidian 永続メモリ",
    "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
-   "stars": 5120,
+   "stars": 5132,
    "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
    "skill_count": 1,
    "branch": "main"
@@ -319,7 +292,7 @@
    "class": "agent-bundled",
    "note": "Hermes 本体のスキルライブラリ（optional-skills が追加プール）",
    "description": "The agent that grows with you",
-   "stars": 259919,
+   "stars": 260126,
    "url": "https://github.com/NousResearch/hermes-agent",
    "skill_count": 194,
    "branch": "main"
@@ -328,25 +301,16 @@
    "class": "product-internal",
    "note": "",
    "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-   "stars": 119643,
+   "stars": 119793,
    "url": "https://github.com/earendil-works/pi",
    "skill_count": 17,
-   "branch": "main"
-  },
-  "bluesky-social/atproto": {
-   "class": "product-internal",
-   "note": "",
-   "description": "Social networking technology created by Bluesky",
-   "stars": 9714,
-   "url": "https://github.com/bluesky-social/atproto",
-   "skill_count": 9,
    "branch": "main"
   },
   "ConardLi/garden-skills": {
    "class": "dedicated",
    "note": "デザイン・知識検索等のスキル集",
    "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-   "stars": 13543,
+   "stars": 13641,
    "url": "https://github.com/ConardLi/garden-skills",
    "skill_count": 6,
    "branch": "main"
@@ -355,7 +319,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
-   "stars": 29073,
+   "stars": 29095,
    "url": "https://github.com/srbhr/Resume-Matcher",
    "skill_count": 1,
    "branch": "main"
@@ -364,7 +328,7 @@
    "class": "dedicated",
    "note": "Karpathy 流ガイドライン",
    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-   "stars": 228606,
+   "stars": 228915,
    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
    "skill_count": 1,
    "branch": "main"
@@ -373,7 +337,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
-   "stars": 62590,
+   "stars": 62631,
    "url": "https://github.com/BerriAI/litellm",
    "skill_count": 11,
    "branch": "main"
@@ -382,7 +346,7 @@
    "class": "dedicated",
    "note": "Obsidian 用スキル集",
    "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-   "stars": 50655,
+   "stars": 50684,
    "url": "https://github.com/kepano/obsidian-skills",
    "skill_count": 6,
    "branch": "main"
@@ -391,7 +355,7 @@
    "class": "dedicated",
    "note": "SwiftUI ベストプラクティス",
    "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
-   "stars": 3813,
+   "stars": 3817,
    "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
    "skill_count": 2,
    "branch": "main"
@@ -400,25 +364,16 @@
    "class": "dedicated",
    "note": "直近30日の話題リサーチ",
    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-   "stars": 66388,
+   "stars": 66445,
    "url": "https://github.com/mvanhorn/last30days-skill",
    "skill_count": 1,
-   "branch": "main"
-  },
-  "coder/claudecode.nvim": {
-   "class": "product-internal",
-   "note": "",
-   "description": "🧩 Claude Code Neovim IDE Extension",
-   "stars": 3146,
-   "url": "https://github.com/coder/claudecode.nvim",
-   "skill_count": 2,
    "branch": "main"
   },
   "vercel-labs/agent-browser": {
    "class": "product-internal",
    "note": "",
    "description": "Browser automation CLI for AI agents",
-   "stars": 45299,
+   "stars": 45367,
    "url": "https://github.com/vercel-labs/agent-browser",
    "skill_count": 11,
    "branch": "main"
@@ -427,7 +382,7 @@
    "class": "collection",
    "note": "キュレーション一覧＋Composio 自動化スキル 864 件",
    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-   "stars": 78609,
+   "stars": 78650,
    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
    "skill_count": 864,
    "branch": "master"
@@ -436,25 +391,16 @@
    "class": "product-internal",
    "note": "",
    "description": "An autonomous agent for deep financial research",
-   "stars": 27754,
+   "stars": 27752,
    "url": "https://github.com/virattt/dexter",
    "skill_count": 3,
-   "branch": "main"
-  },
-  "anthropics/claude-cookbooks": {
-   "class": "dedicated",
-   "note": "財務系サンプルスキル（custom_skills の3件）",
-   "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-   "stars": 54124,
-   "url": "https://github.com/anthropics/claude-cookbooks",
-   "skill_count": 4,
    "branch": "main"
   },
   "anomalyco/opencode": {
    "class": "product-internal",
    "note": "",
    "description": "The open source coding agent.",
-   "stars": 224148,
+   "stars": 224272,
    "url": "https://github.com/anomalyco/opencode",
    "skill_count": 24,
    "branch": "dev"
@@ -463,7 +409,7 @@
    "class": "product-internal",
    "note": "",
    "description": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
-   "stars": 73667,
+   "stars": 73720,
    "url": "https://github.com/tw93/Mole",
    "skill_count": 6,
    "branch": "main"
@@ -472,7 +418,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-   "stars": 209412,
+   "stars": 209445,
    "url": "https://github.com/n8n-io/n8n",
    "skill_count": 40,
    "branch": "master"
@@ -481,7 +427,7 @@
    "class": "product-internal",
    "note": "",
    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-   "stars": 108686,
+   "stars": 108699,
    "url": "https://github.com/google-gemini/gemini-cli",
    "skill_count": 25,
    "branch": "main"
@@ -490,7 +436,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-   "stars": 114462,
+   "stars": 114475,
    "url": "https://github.com/supabase/supabase",
    "skill_count": 24,
    "branch": "master"
@@ -499,7 +445,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The React Framework",
-   "stars": 143238,
+   "stars": 143245,
    "url": "https://github.com/vercel/next.js",
    "skill_count": 27,
    "branch": "canary"
@@ -508,7 +454,7 @@
    "class": "product-internal",
    "note": "",
    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-   "stars": 111723,
+   "stars": 111726,
    "url": "https://github.com/microsoft/TypeScript",
    "skill_count": 4,
    "branch": "main"
@@ -517,7 +463,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The library for web and native user interfaces.",
-   "stars": 251881,
+   "stars": 251892,
    "url": "https://github.com/react/react",
    "skill_count": 14,
    "branch": "main"
@@ -526,7 +472,7 @@
    "class": "product-internal",
    "note": "",
    "description": "JavaScript API for Chrome and Firefox",
-   "stars": 95792,
+   "stars": 95791,
    "url": "https://github.com/puppeteer/puppeteer",
    "skill_count": 1,
    "branch": "main"
@@ -535,7 +481,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
-   "stars": 71220,
+   "stars": 71226,
    "url": "https://github.com/ansible/ansible",
    "skill_count": 4,
    "branch": "devel"
@@ -544,7 +490,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-   "stars": 77650,
+   "stars": 77656,
    "url": "https://github.com/grafana/grafana",
    "skill_count": 3,
    "branch": "main"
@@ -553,13 +499,97 @@
    "class": "product-internal",
    "note": "",
    "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-   "stars": 123202,
+   "stars": 123206,
    "url": "https://github.com/nodejs/node",
    "skill_count": 28,
    "branch": "main"
   }
  },
  "skills": [
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/build-artifacts",
+   "name": "shipping-build-artifacts",
+   "description": "Make the build step a real gate on what you actually distribute — build scripts that warn and exit 0 on a missing input, size checks with only an upper bound, hand-maintained file lists that drift from the entrypoints they must cover, committed bundles that go stale when only the source changes, GNU-only shell in release scripts that aborts on the other OS, and verification that runs against the source tree instead of the artifact. Use when writing or reviewing a build/package script, a `dist/` copy step, a release workflow that uploads a zip or installer, or a committed compiled asset."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/ci-pipeline-synthesizer",
+   "name": "ci-pipeline-synthesizer",
+   "description": "Generate GitHub Actions CI/CD pipeline configurations for automated building and testing of library and package projects. Use when creating or updating CI workflows for npm packages, Python packages, Go modules, Rust crates, or other library projects that need automated build and test pipelines. Includes templates for common package ecosystems with best practices for dependency caching, matrix testing, and artifact publishing."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/code-review",
+   "name": "reviewing-ffmpeg-skill-changes",
+   "description": "Review a change to the ffmpeg-skill repository for the failures its own contract makes possible — a claim in a result document that is true at one layer and false at the layer a caller reads, a new flag that reaches the code but not the contract/docs/demo surfaces, a \"bug\" that docs/design-decisions.md already decided with a pinning test, a fix with no regression test, a new runtime dependency or a raw ffmpeg shell call that breaks the scope boundary, a SKILL.md line added without one trimmed, a review that re-derives findings from a summary instead of the tree at the reviewed commit. Use when asked to review a PR or diff in this repository, when authoring code here and needing a pre-commit check, or when triaging an external review or audit report about this codebase."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/concurrent-branches",
+   "name": "concurrent-branches",
+   "description": "Resolve conflicts and merges when several branches are open against one repo at the same time — the hotspot files every change must touch (registry manifests, a single version field, shared tool config, one aggregated test module, tracked build output), union-vs-recompute-vs-rebuild as three different correct resolutions, generated artifacts that must never be merged, non-deterministic serialization that makes every branch conflict, renumbered identifiers that git cannot show you, and why a clean auto-merge is not a passing test. Use when rebasing or merging a long-lived branch, resolving conflict markers, reviewing a merge commit, deciding what a repo should commit vs generate, or setting up a repo that will take parallel contributions."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/cross-surface-changes",
+   "name": "shipping-across-surfaces",
+   "description": "Land a change everywhere the same fact is stated — enumerating the full surface inventory (landing copy, docs, machine-readable summaries, changelog badges repeated across every page, sitemap, README, descriptions embedded in code, and untyped frontend consumers of typed responses), generating a surface instead of restating it, drift tests where you cannot generate, never hand-maintaining a copy of a surface another codebase owns, shipping a paired PR when you change a format a different codebase decodes, and keeping overloaded product words apart. Use when adding or renaming a user-facing feature, editing product/marketing copy or docs, renaming a serialized response field, changing a serialization or share-link format, wiring one repo's output into another's checks, or reviewing a PR that touched only one place a fact appears."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/defect-reports",
+   "name": "writing-defect-reports",
+   "description": "Establish a finding before you publish it, and correct it after — headlines that overstate what actually reproduces at the layer a user sees, reporting code that no entry point can reach or that is already dead, filing a caveat the project's own records already answered, re-verifying your prior notes against the tree instead of against the note, choosing the narrowest injection point that reproduces a failure without breaking the run first, capturing probe output a harness swallows, and withdrawing a published claim in the thread where you published it. Use when filing an issue, writing the body of a PR or code review that asserts a defect, triaging someone else's report, or deciding whether a suspicious observation is reportable at all."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/destructive-operations",
+   "name": "guarding-destructive-operations",
+   "description": "Add and review preconditions on operations that delete, overwrite, rewrite history, or resolve a caller-supplied name to a filesystem path — refusing instead of warning, placing the guard ahead of the first mutation, structural classification rather than string-prefix matching, name validation plus resolved-path containment as two independent checks, why a guard on the destructive path is invisible to the dry-run, and mutation-testing each half separately. Use when writing or reviewing a `--rebuild`/`--reset`/`--purge` command, a bulk delete, a history rewrite, an `rm -rf`-shaped step, or any code that turns an argument into a file path."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/git-hygiene",
+   "name": "keeping-git-repos-clean",
+   "description": "Prevents, detects, and remediates files that should never be committed — secrets (.env, API tokens, hardcoded credentials) and dev artifacts (build output, scratch databases, editor/OS files). Covers .gitignore (and why it does not untrack), git rm --cached, auditing tracked files, history scrubbing, and credential rotation. Use when a repo has committed secrets or junk, when setting up a new repo's ignore rules, or when reviewing what a repo actually tracks."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/github-actions",
+   "name": "running-github-actions-efficiently",
+   "description": "Cut GitHub Actions minutes and wall-clock time without losing coverage — the OS billing multiplier (macOS 10x / Windows 2x / Linux 1x), trigger hygiene that stops push+pull_request double-firing, concurrency that cancels superseded runs, dependency caching keyed on lockfiles, matrix discipline, and auditing scheduled crons that bill 24/7. Use when CI is burning included minutes, when runs feel slow, when setting up a new repo's workflows, or when reviewing an existing workflow for waste."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/mcp-server-design",
+   "name": "building-python-mcp-servers",
+   "description": "Builds robust Python MCP (Model Context Protocol) servers with FastMCP — tool design, error contracts, event-loop-safe blocking work, subprocess/CLI wrapping, single-file vs packaged distribution, global-state-free testing, and prompt-injection awareness. Use when writing an MCP server, exposing a tool or CLI to an LLM client, debugging tool registration/packaging, or testing MCP tools."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/release-management",
+   "name": "managing-python-releases",
+   "description": "Manages Python library releases including semantic versioning, changelog maintenance (Keep a Changelog format), release automation with GitHub Actions, and deprecation workflows. Use when planning releases, writing changelogs, automating release pipelines, or communicating breaking changes."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/reproducing-ci-locally",
+   "name": "reproducing-ci-locally",
+   "description": "Run the CI gate on your machine so it agrees with the runner — deriving the exact command, paths, markers, and env from the workflow file instead of the Makefile, unblocking gate steps that short-circuit and hide the next failure, pinning the linter version CI resolves, building the interpreter/toolchain environment the runner builds, and confirming the run is green instead of explaining a red job away. Use when a check passes locally but fails in CI (or the reverse), when a lint/format job goes red on an untouched file, when setting up a local dev loop for an unfamiliar repo, or before pushing a branch you expect to merge."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".claude/skills/verifying-external-behavior",
+   "name": "verifying-external-behavior",
+   "description": "Confirms what a third-party library, remote API, build backend, or scraped document actually does before writing code that depends on it — throwaway probes that run in seconds, permissive clients that forward wrong arguments instead of rejecting them, per-endpoint docs that don't generalize, response shapes that make a \"fast path\" always-false, fakes that encode your assumption rather than the service's behavior, and dry-runs that skip the step that fails. Use when integrating a new dependency or endpoint, writing a tolerated-status or error branch, choosing a client argument name, testing against a fake, or reviewing code that asserts an upstream contract."
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "path": ".",
+   "name": "ffmpeg-skill",
+   "description": "Edit video and audio with local FFmpeg: cut, join, reframe, speed, captions, overlays, silence removal, sync, loudness, HDR to SDR, platform exports and checks. Use whenever the user mentions a video or audio file (mp4, mov, wav, m4a), footage, captions, a reel or short, YouTube/TikTok delivery, LUFS or ffmpeg, even without saying \"edit\". Needs FFmpeg 6.1+ and Python 3.10+; stdlib only, no cloud."
+  },
   {
    "repo": "taisukey/chat-map",
    "path": ".",
@@ -571,126 +601,6 @@
    "path": "skills/unslop",
    "name": "unslop",
    "description": "Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction from the product itself, then fixes spacing, color, icons, copy, type, layout, details, visuals and motion in that order, and can generate a real hero visual with an image tool when one is available. Use when the user asks to unslop, polish, clean up or redesign a screen so it stops looking AI-generated, or when a UI shows the usual tells like purple gradients, glows, gradient text, emoji labels, \"New ✨\" badges, glossy blobs, uppercase tracked labels, pulsing elements or uneven spacing. Works on React, Tailwind, HTML and CSS, for dashboards, apps and landing pages."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/academy-guide",
-   "name": "academy-guide",
-   "description": ">"
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/algorithmic-art",
-   "name": "algorithmic-art",
-   "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/brand-guidelines",
-   "name": "brand-guidelines",
-   "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/canvas-design",
-   "name": "canvas-design",
-   "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/claude-api",
-   "name": "claude-api",
-   "description": "|-"
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/discernment-nudge",
-   "name": "discernment-nudge",
-   "description": ">"
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/doc-coauthoring",
-   "name": "doc-coauthoring",
-   "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/docx",
-   "name": "docx",
-   "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/frontend-design",
-   "name": "frontend-design",
-   "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/internal-comms",
-   "name": "internal-comms",
-   "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.)."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/mcp-builder",
-   "name": "mcp-builder",
-   "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK)."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/pdf",
-   "name": "pdf",
-   "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/pptx",
-   "name": "pptx",
-   "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/skill-creator",
-   "name": "skill-creator",
-   "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/slack-gif-creator",
-   "name": "slack-gif-creator",
-   "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/theme-factory",
-   "name": "theme-factory",
-   "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/web-artifacts-builder",
-   "name": "web-artifacts-builder",
-   "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/webapp-testing",
-   "name": "webapp-testing",
-   "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "skills/xlsx",
-   "name": "xlsx",
-   "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \\\"the xlsx in my downloads\\\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved."
-  },
-  {
-   "repo": "anthropics/skills",
-   "path": "template",
-   "name": "template-skill",
-   "description": "Replace with description of the skill and when Claude should use it."
   },
   {
    "repo": "academa-labs/manimgx",
@@ -1433,8 +1343,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/creative/ai-presenter-video",
-   "name": "ai-presenter-video",
-   "description": "Make a verified AI presenter video from script + image."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1487,8 +1397,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/creative/comfyui",
-   "name": "comfyui",
-   "description": "Generate images, video, and audio via diffusion workflows."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1547,8 +1457,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/creative/ip-as-logo",
-   "name": "ip-as-logo",
-   "description": "Design minimal cute IP mascot marks readable at 32px."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1625,14 +1535,14 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/devops/actual-setup",
-   "name": "actual-setup",
-   "description": "Set up Actual Computer (actual.inc) inference in Hermes."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/devops/docker-management",
-   "name": "docker-management",
-   "description": "Manage Docker containers, images, volumes, and Compose."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1673,8 +1583,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/email/agentmail",
-   "name": "agentmail",
-   "description": "Use when an agent needs AgentMail CLI email inboxes."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1709,8 +1619,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/finance/merger-model",
-   "name": "merger-model",
-   "description": "Build M&A accretion/dilution workbooks in Excel."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1859,8 +1769,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/mlops/peft",
-   "name": "peft",
-   "description": "Fine-tune large LLMs with LoRA on limited GPU memory."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1883,14 +1793,14 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/mlops/saelens",
-   "name": "saelens",
-   "description": "Train sparse autoencoders to interpret model features."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/mlops/simpo",
-   "name": "simpo",
-   "description": "Reference-free preference alignment, simpler than DPO."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1919,8 +1829,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/mlops/training/unsloth",
-   "name": "unsloth",
-   "description": "Unsloth: 2-5x faster LoRA/QLoRA fine-tuning, less VRAM."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1949,8 +1859,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/productivity/box",
-   "name": "box",
-   "description": "Box manages cloud files, sharing, search, and metadata."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1979,8 +1889,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/productivity/memento-flashcards",
-   "name": "memento-flashcards",
-   "description": "Spaced-repetition flashcards: create, review, quiz, export."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1997,8 +1907,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/productivity/shop",
-   "name": "shop",
-   "description": "Shop catalog search, checkout, order tracking, returns."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2009,8 +1919,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/productivity/siyuan",
-   "name": "siyuan",
-   "description": "Query and edit a SiYuan knowledge base via its API."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2027,8 +1937,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/research/blogwatcher",
-   "name": "blogwatcher",
-   "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2039,8 +1949,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/research/domain-intel",
-   "name": "domain-intel",
-   "description": "Passive recon of subdomains, SSL certs, WHOIS, and DNS."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2075,8 +1985,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/research/parallel-cli",
-   "name": "parallel-cli",
-   "description": "Agent-native web search, deep research, and enrichment."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2105,8 +2015,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/research/searxng-search",
-   "name": "searxng-search",
-   "description": "Free keyless meta-search aggregating 70+ engines."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2189,8 +2099,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/software-development/node-inspect-debugger",
-   "name": "node-inspect-debugger",
-   "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2231,8 +2141,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/web-development/page-agent",
-   "name": "page-agent",
-   "description": "Embed an in-page natural-language GUI copilot in web apps."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2309,8 +2219,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "skills/creative/architecture-diagram",
-   "name": "architecture-diagram",
-   "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML."
+   "name": null,
+   "description": null
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -7801,30 +7711,6 @@
    "path": "webapp-testing",
    "name": "webapp-testing",
    "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
-  },
-  {
-   "repo": "anthropics/claude-cookbooks",
-   "path": ".claude/skills/cookbook-audit",
-   "name": "cookbook-audit",
-   "description": "Audit an Anthropic Cookbook notebook based on a rubric. Use whenever a notebook review or audit is requested."
-  },
-  {
-   "repo": "anthropics/claude-cookbooks",
-   "path": "skills/custom_skills/analyzing-financial-statements",
-   "name": "analyzing-financial-statements",
-   "description": "This skill calculates key financial ratios and metrics from financial statement data for investment analysis"
-  },
-  {
-   "repo": "anthropics/claude-cookbooks",
-   "path": "skills/custom_skills/applying-brand-guidelines",
-   "name": "applying-brand-guidelines",
-   "description": "This skill applies consistent corporate branding and styling to all generated documents including colors, fonts, layouts, and messaging"
-  },
-  {
-   "repo": "anthropics/claude-cookbooks",
-   "path": "skills/custom_skills/creating-financial-models",
-   "name": "creating-financial-models",
-   "description": "This skill provides an advanced financial modeling suite with DCF analysis, sensitivity testing, Monte Carlo simulations, and scenario planning for investment decisions"
   }
  ]
 }
