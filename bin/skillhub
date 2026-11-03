@@ -128,7 +128,10 @@ def cmd_install(catalog, name, agent, repo_hint):
         print("対象エージェントがこのマシンにありません")
         return 1
     clone = ensure_clone(skill["repo"])
-    src = os.path.join(clone, skill["path"])
+    rel = skill["path"]
+    if rel == "SKILL.md" or rel.endswith("/SKILL.md"):
+        rel = rel.rsplit("/SKILL.md", 1)[0] or "."
+    src = clone if rel == "." else os.path.join(clone, rel)
     if not os.path.isfile(os.path.join(src, "SKILL.md")):
         print(f"スキル実体が見つかりません: {src}")
         return 1
@@ -140,7 +143,7 @@ def cmd_install(catalog, name, agent, repo_hint):
             print(f"{ag}: 既に存在します（skip） {dest}")
             continue
         os.makedirs(base, exist_ok=True)
-        shutil.copytree(src, dest)
+        shutil.copytree(src, dest, ignore=shutil.ignore_patterns(".git"))
         entry["agents"][ag] = dest
         print(f"{ag}: 導入しました → {dest}")
     state[name] = entry

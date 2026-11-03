@@ -124,7 +124,10 @@ def main():
             name, desc = parse_frontmatter(text)
         except Exception:
             pass
-        return {"repo": repo, "path": path.rsplit("/SKILL.md", 1)[0] or ".",
+        d = path.rsplit("/SKILL.md", 1)[0]
+        if d == "SKILL.md" or d == path:
+            d = "."
+        return {"repo": repo, "path": d or ".",
                 "name": name, "description": desc}
 
     with ThreadPoolExecutor(max_workers=12) as ex:

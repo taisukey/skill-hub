@@ -7456,7 +7456,7 @@
   },
   {
    "repo": "eugeniughelbur/obsidian-second-brain",
-   "path": "SKILL.md",
+   "path": ".",
    "name": "obsidian-second-brain",
    "description": ">"
   },
@@ -8020,13 +8020,13 @@
   },
   {
    "repo": "virgiliojr94/book-to-skill",
-   "path": "SKILL.md",
+   "path": ".",
    "name": "book-to-skill",
    "description": "Converts books and documents (PDF, EPUB, DOCX, HTML, Markdown, plain text, RTF, MOBI/AZW with Calibre) into structured agent skills, extracting frameworks, mental models, principles, techniques, and anti-patterns. Use when the user wants to study a document through GitHub Copilot CLI, Amp, Claude Code, Hermes Agent, OpenCode, or OpenClaw, apply an author's frameworks while working, or build a reusable knowledge base from a file."
   },
   {
    "repo": "wheresryan22/anatomy",
-   "path": "SKILL.md",
+   "path": ".",
    "name": "anatomy",
    "description": "Build crafted, highly detailed, interactive isometric SVG figures that explain a technical idea as a real physical object (a test rig, a dial gauge, a cabinet of drawers, a plotter, a lock), with many small precise solid parts, four-tone shading, correct painter's order, a framed card with title, hint and live readout, and calm eased motion. Use this whenever someone wants an isometric illustration, an explanatory diagram or figure for docs, a blog post, a landing page or an article, a \"Linear-style\" or \"premium\" technical drawing, an interactive explainer, or an SVG that shows how a system, algorithm or component works, even if they never say \"isometric\". Works framework-free (TypeScript/JS that writes SVG and HTML) and in React/Next.js, and can add realistic WebGL shaders (fire, exhaust, water, caustics, lamp light) that live inside the drawing in the same isometric perspective. Also prints a figure as an A4 PDF (poster, drawing or handout) and publishes it to the Anatomy community gallery when asked."
   }
