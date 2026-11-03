@@ -4,7 +4,7 @@
    "class": "dedicated",
    "note": "",
    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-   "stars": 4434,
+   "stars": 4435,
    "url": "https://github.com/kajisho5/ffmpeg-skill",
    "skill_count": 14,
    "branch": "main"
@@ -22,7 +22,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Towards a More Autonomous Agent System",
-   "stars": 15978,
+   "stars": 16011,
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "skill_count": 2,
    "branch": "main"
@@ -31,7 +31,7 @@
    "class": "dedicated",
    "note": "UI の AI っぽさを取るスキル（導入済み）",
    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-   "stars": 7098,
+   "stars": 7119,
    "url": "https://github.com/heydamir/unslop",
    "skill_count": 1,
    "branch": "main"
@@ -40,7 +40,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Computer use CLI for AI agents",
-   "stars": 11909,
+   "stars": 11949,
    "url": "https://github.com/vercel-labs/agent-desktop",
    "skill_count": 8,
    "branch": "main"
@@ -49,7 +49,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The best-benchmarked open-source AI memory system. And it's free.",
-   "stars": 60317,
+   "stars": 60318,
    "url": "https://github.com/MemPalace/mempalace",
    "skill_count": 15,
    "branch": "develop"
@@ -58,25 +58,16 @@
    "class": "product-internal",
    "note": "",
    "description": "Hindsight: Agent Memory That Learns",
-   "stars": 58373,
+   "stars": 58382,
    "url": "https://github.com/vectorize-io/hindsight",
    "skill_count": 20,
-   "branch": "main"
-  },
-  "academa-labs/manimgx": {
-   "class": "dedicated",
-   "note": "Manim アニメーション",
-   "description": "The animation engine for agents: blazingly fast math and 3D videos with Manim's Python API, on a Rust GPU core.",
-   "stars": 2498,
-   "url": "https://github.com/academa-labs/manimgx",
-   "skill_count": 1,
    "branch": "main"
   },
   "wheresryan22/anatomy": {
    "class": "dedicated",
    "note": "等角分解イラスト（Hermes 導入済み）",
    "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-   "stars": 24345,
+   "stars": 24347,
    "url": "https://github.com/wheresryan22/anatomy",
    "skill_count": 1,
    "branch": "main"
@@ -112,7 +103,7 @@
    "class": "dedicated",
    "note": "実務エンジニアリングのスキル集",
    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-   "stars": 311018,
+   "stars": 311031,
    "url": "https://github.com/mattpocock/skills",
    "skill_count": 39,
    "branch": "main"
@@ -121,7 +112,7 @@
    "class": "dedicated",
    "note": "開発方法論のスキル集",
    "description": "An agentic skills framework & software development methodology that works.",
-   "stars": 311658,
+   "stars": 311665,
    "url": "https://github.com/obra/superpowers",
    "skill_count": 15,
    "branch": "main"
@@ -139,7 +130,7 @@
    "class": "product-internal",
    "note": "",
    "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-   "stars": 13321,
+   "stars": 13323,
    "url": "https://github.com/tangency-labs/solidcraft",
    "skill_count": 17,
    "branch": "main"
@@ -148,7 +139,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-   "stars": 425776,
+   "stars": 425824,
    "url": "https://github.com/morluto/rea",
    "skill_count": 5,
    "branch": "main"
@@ -157,7 +148,7 @@
    "class": "dedicated",
    "note": "図解デザイン",
    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-   "stars": 64575,
+   "stars": 64579,
    "url": "https://github.com/cathrynlavery/diagram-design",
    "skill_count": 1,
    "branch": "main"
@@ -166,7 +157,7 @@
    "class": "dedicated",
    "note": "書籍 PDF をスキル化",
    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-   "stars": 36849,
+   "stars": 36850,
    "url": "https://github.com/virgiliojr94/book-to-skill",
    "skill_count": 1,
    "branch": "master"
@@ -175,7 +166,7 @@
    "class": "dedicated",
    "note": "ADHD 配慮の出力スキル",
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-   "stars": 59906,
+   "stars": 59907,
    "url": "https://github.com/ayghri/i-have-adhd",
    "skill_count": 2,
    "branch": "main"
@@ -229,7 +220,7 @@
    "class": "dedicated",
    "note": "最小実装を促す行動スキル集",
    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-   "stars": 183450,
+   "stars": 183463,
    "url": "https://github.com/DietrichGebert/ponytail",
    "skill_count": 13,
    "branch": "main"
@@ -238,25 +229,16 @@
    "class": "dedicated",
    "note": "CAD / 3D プリント系スキル集",
    "description": "Design physical products with AI",
-   "stars": 25160,
+   "stars": 25164,
    "url": "https://github.com/earthtojake/text-to-cad",
    "skill_count": 12,
-   "branch": "main"
-  },
-  "AgriciDaniel/claude-obsidian": {
-   "class": "dedicated",
-   "note": "Obsidian 第二の脳スキル集",
-   "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
-   "stars": 16115,
-   "url": "https://github.com/AgriciDaniel/claude-obsidian",
-   "skill_count": 16,
    "branch": "main"
   },
   "google-labs-code/design.md": {
    "class": "product-internal",
    "note": "",
    "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-   "stars": 28702,
+   "stars": 28701,
    "url": "https://github.com/google-labs-code/design.md",
    "skill_count": 4,
    "branch": "main"
@@ -270,29 +252,11 @@
    "skill_count": 2,
    "branch": "master"
   },
-  "markdown-viewer/skills": {
-   "class": "dedicated",
-   "note": "図解・可視化",
-   "description": "Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation.",
-   "stars": 3394,
-   "url": "https://github.com/markdown-viewer/skills",
-   "skill_count": 1,
-   "branch": "main"
-  },
-  "eugeniughelbur/obsidian-second-brain": {
-   "class": "dedicated",
-   "note": "Obsidian 永続メモリ",
-   "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
-   "stars": 5132,
-   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
-   "skill_count": 1,
-   "branch": "main"
-  },
   "NousResearch/hermes-agent": {
    "class": "agent-bundled",
    "note": "Hermes 本体のスキルライブラリ（optional-skills が追加プール）",
    "description": "The agent that grows with you",
-   "stars": 260126,
+   "stars": 260130,
    "url": "https://github.com/NousResearch/hermes-agent",
    "skill_count": 194,
    "branch": "main"
@@ -301,18 +265,9 @@
    "class": "product-internal",
    "note": "",
    "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-   "stars": 119793,
+   "stars": 119795,
    "url": "https://github.com/earendil-works/pi",
    "skill_count": 17,
-   "branch": "main"
-  },
-  "ConardLi/garden-skills": {
-   "class": "dedicated",
-   "note": "デザイン・知識検索等のスキル集",
-   "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-   "stars": 13641,
-   "url": "https://github.com/ConardLi/garden-skills",
-   "skill_count": 6,
    "branch": "main"
   },
   "srbhr/Resume-Matcher": {
@@ -324,20 +279,11 @@
    "skill_count": 1,
    "branch": "main"
   },
-  "multica-ai/andrej-karpathy-skills": {
-   "class": "dedicated",
-   "note": "Karpathy 流ガイドライン",
-   "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-   "stars": 228915,
-   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-   "skill_count": 1,
-   "branch": "main"
-  },
   "BerriAI/litellm": {
    "class": "product-internal",
    "note": "",
    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
-   "stars": 62631,
+   "stars": 62632,
    "url": "https://github.com/BerriAI/litellm",
    "skill_count": 11,
    "branch": "main"
@@ -346,25 +292,16 @@
    "class": "dedicated",
    "note": "Obsidian 用スキル集",
    "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-   "stars": 50684,
+   "stars": 50685,
    "url": "https://github.com/kepano/obsidian-skills",
    "skill_count": 6,
-   "branch": "main"
-  },
-  "AvdLee/SwiftUI-Agent-Skill": {
-   "class": "dedicated",
-   "note": "SwiftUI ベストプラクティス",
-   "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
-   "stars": 3817,
-   "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
-   "skill_count": 2,
    "branch": "main"
   },
   "mvanhorn/last30days-skill": {
    "class": "dedicated",
    "note": "直近30日の話題リサーチ",
    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-   "stars": 66445,
+   "stars": 66446,
    "url": "https://github.com/mvanhorn/last30days-skill",
    "skill_count": 1,
    "branch": "main"
@@ -373,7 +310,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Browser automation CLI for AI agents",
-   "stars": 45367,
+   "stars": 45370,
    "url": "https://github.com/vercel-labs/agent-browser",
    "skill_count": 11,
    "branch": "main"
@@ -382,7 +319,7 @@
    "class": "collection",
    "note": "キュレーション一覧＋Composio 自動化スキル 864 件",
    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-   "stars": 78650,
+   "stars": 78651,
    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
    "skill_count": 864,
    "branch": "master"
@@ -400,7 +337,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The open source coding agent.",
-   "stars": 224272,
+   "stars": 224275,
    "url": "https://github.com/anomalyco/opencode",
    "skill_count": 24,
    "branch": "dev"
@@ -409,7 +346,7 @@
    "class": "product-internal",
    "note": "",
    "description": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
-   "stars": 73720,
+   "stars": 73721,
    "url": "https://github.com/tw93/Mole",
    "skill_count": 6,
    "branch": "main"
@@ -418,7 +355,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-   "stars": 209445,
+   "stars": 209446,
    "url": "https://github.com/n8n-io/n8n",
    "skill_count": 40,
    "branch": "master"
@@ -427,7 +364,7 @@
    "class": "product-internal",
    "note": "",
    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-   "stars": 108699,
+   "stars": 108700,
    "url": "https://github.com/google-gemini/gemini-cli",
    "skill_count": 25,
    "branch": "main"
@@ -454,7 +391,7 @@
    "class": "product-internal",
    "note": "",
    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-   "stars": 111726,
+   "stars": 111727,
    "url": "https://github.com/microsoft/TypeScript",
    "skill_count": 4,
    "branch": "main"
@@ -601,12 +538,6 @@
    "path": "skills/unslop",
    "name": "unslop",
    "description": "Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction from the product itself, then fixes spacing, color, icons, copy, type, layout, details, visuals and motion in that order, and can generate a real hero visual with an image tool when one is available. Use when the user asks to unslop, polish, clean up or redesign a screen so it stops looking AI-generated, or when a UI shows the usual tells like purple gradients, glows, gradient text, emoji labels, \"New ✨\" badges, glossy blobs, uppercase tracked labels, pulsing elements or uneven spacing. Works on React, Tailwind, HTML and CSS, for dashboards, apps and landing pages."
-  },
-  {
-   "repo": "academa-labs/manimgx",
-   "path": "skills/manimgx",
-   "name": "manimgx",
-   "description": "Create and refine mathematical or 3D animations in Python with ManimGX, including scene authoring, layout inspection, and video export."
   },
   {
    "repo": "wheresryan22/anatomy",
@@ -1161,114 +1092,6 @@
    "description": "URDF robot description authoring and validation. Use when creating, editing, inspecting, validating, or debugging `.urdf` files, robot links, joints, limits, inertials, visual/collision geometry, mesh references, frame conventions, or robot-description artifacts. Covers the robot's structure, not MoveIt2 semantic groups or IK/path-planning semantics (SRDF), and not the STEP/STL/3MF/DXF/GLB files its meshes come from. Open and visually review existing URDF files in CAD Viewer."
   },
   {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/autoresearch",
-   "name": "autoresearch",
-   "description": "Run a bounded, source-grounded research loop, draft a cited dossier, and optionally propose a separately reviewed canonical vault merge. Use when the user wants autonomous or deep research that may access the public web. Triggers: /autoresearch, autoresearch, research this topic, deep dive into, investigate, find everything about, research and file, go research, build a wiki on."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/canvas",
-   "name": "canvas",
-   "description": "Create, inspect, and update Obsidian JSON Canvas boards with text, file, link, group, and edge nodes. Use for canvas status, canvas lists, visual maps, zones, spatial layouts, adding vault notes or media to a .canvas file, and requests such as create canvas, add to canvas, or put this on the canvas."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/defuddle",
-   "name": "defuddle",
-   "description": "Plan optional Defuddle extraction and retain already available local source files through reviewed filesystem capture. Use for defuddle, clean this URL, strip page clutter, readable Markdown from a web page, or preparing a web source for later wiki ingestion. Network extraction remains unavailable until an enforcing adapter is verified."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/obsidian-bases",
-   "name": "obsidian-bases",
-   "description": "Explain, draft, and validate Obsidian Bases .base files with filters, formulas, properties, summaries, and table, card, list, or version-gated kanban views. Use for Obsidian Bases, database-like vault views, dynamic tables, reading lists, task trackers, filters, formulas, summaries, and .base file edits."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/obsidian-markdown",
-   "name": "obsidian-markdown",
-   "description": "Explain, draft, or validate Obsidian Flavored Markdown syntax: properties, wikilinks, embeds, callouts, tags, comments, highlights, block references, math, and Mermaid. Use when the user explicitly requests Obsidian note formatting or syntax help, not for general Markdown or broad vault operations."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/save",
-   "name": "save",
-   "description": "Save a user-selected answer, decision, insight, or session summary into an Obsidian vault as one reviewed transaction. Use only when the user explicitly asks to preserve specific conversation content, not when they supply a file or URL to ingest. Triggers: /save, save this, save that answer, file this conversation, save this analysis, keep this insight, preserve this chat result."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/think",
-   "name": "think",
-   "description": "Apply the Fable-derived 10-stage OBSERVE, OBSERVE, LISTEN, THINK, CONNECT, CONNECT, FEEL, ACCEPT, CREATE, GROW loop to consequential or ambiguous reasoning and decisions. Use for think this through, deep think, architecture review, postmortem, tradeoff analysis, or challenges to assumptions. This is a reasoning review, not a deterministic vault health check or repair workflow."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/wiki-cli",
-   "name": "wiki-cli",
-   "description": "Detect and use the official Obsidian command-line interface for read-only vault access; use for wiki-cli, Obsidian CLI, Obsidian read, Obsidian search, vault transport, which transport, transport detection, backlinks, tags, or Obsidian command line. Mutations always go through the claude-obsidian transaction core."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/wiki-fold",
-   "name": "wiki-fold",
-   "description": "Create a bounded, extractive, structurally idempotent rollup of recent Obsidian wiki log entries, with dry-run preview by default and one optional transaction apply. Use for manual log compression without modifying child pages. Triggers: fold the log, run a fold, run wiki-fold, log rollup, roll up log entries, commit the fold."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/wiki-ingest",
-   "name": "wiki-ingest",
-   "description": "Ingest supplied source material into an Obsidian vault with provenance and claim tracking: pasted text, files staged in the selected vault's inbox or .raw archive, or explicitly approved URLs. Use for a single source or bounded batch, not for saving an assistant answer. Triggers: ingest, ingest this file, ingest this URL, process this source, read and file this source, batch ingest, ingest these sources."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/wiki-lint",
-   "name": "wiki-lint",
-   "description": "Run a deterministic, read-only health check on an Obsidian wiki. Use for lint, vault health check, audit wiki health, find orphans, find dead links, frontmatter audit, provenance audit, or wiki audit. Reports graph, link, frontmatter, provenance-ledger, empty-section, and stale-index findings; it does not reason broadly or repair files."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/wiki-mode",
-   "name": "wiki-mode",
-   "description": "Read or configure the vault filing methodology and suggest destinations for planned knowledge creation under Generic, LYT, PARA, or Zettelkasten. Use for wiki mode, methodology mode, what is my vault mode, set vault mode, switch to PARA, use LYT, Zettelkasten setup, change mode, configure mode, or methodology routing. This skill does not save content or migrate notes."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/wiki-query",
-   "name": "wiki-query",
-   "description": "Answer an explicitly vault-scoped question from an Obsidian wiki without changing it. Use when the user selects the vault as the evidence source: query the wiki, query quick, query deep, explain from the wiki, summarize the vault, find in wiki, search the wiki, or based on the wiki. Do not route ordinary general-knowledge questions here."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/wiki-retrieve",
-   "name": "wiki-retrieve",
-   "description": "Build and query a vault-local contextual BM25 retrieval index with optional multilingual Nomic cosine reranking; use for retrieve, hybrid retrieval, BM25, rerank, contextual retrieval, chunk search, vault search, semantic search, find relevant passages, or retrieval diagnostics. Derived caches stay under .vault-meta, remote egress requires explicit consent, and unavailable reranking falls back deterministically."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "skills/wiki",
-   "name": "wiki",
-   "description": "Initialize, adopt, and route work for a separate Obsidian knowledge vault through the portable claude-obsidian core. Use for vault setup, scaffolding, workspace selection, cross-project configuration, or choosing the correct wiki sub-skill. Triggers: /wiki, set up wiki, scaffold vault, create knowledge base, adopt this vault, Obsidian vault, second brain setup, persistent wiki."
-  },
-  {
-   "repo": "AgriciDaniel/claude-obsidian",
-   "path": "tests/fixtures/contracts/valid/skills/example",
-   "name": "example",
-   "description": "Hermetic contract-validation fixture."
-  },
-  {
-   "repo": "markdown-viewer/skills",
-   "path": "documd-visuals",
-   "name": "documd-visuals",
-   "description": ">"
-  },
-  {
-   "repo": "eugeniughelbur/obsidian-second-brain",
-   "path": ".",
-   "name": "obsidian-second-brain",
-   "description": ">"
-  },
-  {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/autonomous-ai-agents/agent-merge-conflict-arbiter",
    "name": "agent-merge-conflict-arbiter",
@@ -1343,8 +1166,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/creative/ai-presenter-video",
-   "name": null,
-   "description": null
+   "name": "ai-presenter-video",
+   "description": "Make a verified AI presenter video from script + image."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1397,8 +1220,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/creative/comfyui",
-   "name": null,
-   "description": null
+   "name": "comfyui",
+   "description": "Generate images, video, and audio via diffusion workflows."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1457,8 +1280,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/creative/ip-as-logo",
-   "name": null,
-   "description": null
+   "name": "ip-as-logo",
+   "description": "Design minimal cute IP mascot marks readable at 32px."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1535,14 +1358,14 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/devops/actual-setup",
-   "name": null,
-   "description": null
+   "name": "actual-setup",
+   "description": "Set up Actual Computer (actual.inc) inference in Hermes."
   },
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/devops/docker-management",
-   "name": null,
-   "description": null
+   "name": "docker-management",
+   "description": "Manage Docker containers, images, volumes, and Compose."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1583,8 +1406,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/email/agentmail",
-   "name": null,
-   "description": null
+   "name": "agentmail",
+   "description": "Use when an agent needs AgentMail CLI email inboxes."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1619,8 +1442,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/finance/merger-model",
-   "name": null,
-   "description": null
+   "name": "merger-model",
+   "description": "Build M&A accretion/dilution workbooks in Excel."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1769,8 +1592,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/mlops/peft",
-   "name": null,
-   "description": null
+   "name": "peft",
+   "description": "Fine-tune large LLMs with LoRA on limited GPU memory."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1793,14 +1616,14 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/mlops/saelens",
-   "name": null,
-   "description": null
+   "name": "saelens",
+   "description": "Train sparse autoencoders to interpret model features."
   },
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/mlops/simpo",
-   "name": null,
-   "description": null
+   "name": "simpo",
+   "description": "Reference-free preference alignment, simpler than DPO."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1829,8 +1652,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/mlops/training/unsloth",
-   "name": null,
-   "description": null
+   "name": "unsloth",
+   "description": "Unsloth: 2-5x faster LoRA/QLoRA fine-tuning, less VRAM."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1859,8 +1682,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/productivity/box",
-   "name": null,
-   "description": null
+   "name": "box",
+   "description": "Box manages cloud files, sharing, search, and metadata."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1889,8 +1712,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/productivity/memento-flashcards",
-   "name": null,
-   "description": null
+   "name": "memento-flashcards",
+   "description": "Spaced-repetition flashcards: create, review, quiz, export."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1907,8 +1730,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/productivity/shop",
-   "name": null,
-   "description": null
+   "name": "shop",
+   "description": "Shop catalog search, checkout, order tracking, returns."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1919,8 +1742,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/productivity/siyuan",
-   "name": null,
-   "description": null
+   "name": "siyuan",
+   "description": "Query and edit a SiYuan knowledge base via its API."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1937,8 +1760,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/research/blogwatcher",
-   "name": null,
-   "description": null
+   "name": "blogwatcher",
+   "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1949,8 +1772,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/research/domain-intel",
-   "name": null,
-   "description": null
+   "name": "domain-intel",
+   "description": "Passive recon of subdomains, SSL certs, WHOIS, and DNS."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -1985,8 +1808,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/research/parallel-cli",
-   "name": null,
-   "description": null
+   "name": "parallel-cli",
+   "description": "Agent-native web search, deep research, and enrichment."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2015,8 +1838,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/research/searxng-search",
-   "name": null,
-   "description": null
+   "name": "searxng-search",
+   "description": "Free keyless meta-search aggregating 70+ engines."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2099,8 +1922,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/software-development/node-inspect-debugger",
-   "name": null,
-   "description": null
+   "name": "node-inspect-debugger",
+   "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2141,8 +1964,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "optional-skills/web-development/page-agent",
-   "name": null,
-   "description": null
+   "name": "page-agent",
+   "description": "Embed an in-page natural-language GUI copilot in web apps."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2219,8 +2042,8 @@
   {
    "repo": "NousResearch/hermes-agent",
    "path": "skills/creative/architecture-diagram",
-   "name": null,
-   "description": null
+   "name": "architecture-diagram",
+   "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML."
   },
   {
    "repo": "NousResearch/hermes-agent",
@@ -2433,48 +2256,6 @@
    "description": "Use when a fetch fails: 403/429, paywall, WAF, bot wall."
   },
   {
-   "repo": "ConardLi/garden-skills",
-   "path": "skills/beautiful-article",
-   "name": "beautiful-article",
-   "description": "把用户提供的素材（网页 URL / PDF / DOCX / Markdown / 纯文本 / 截图 / 粘贴材料）编辑、设计成一篇美丽的、可离线打开和分享的**单文件 HTML 网页文章**。基于 reacticle 组件协议：不手写裸 HTML/CSS，而用语义组件 + 受主题约束的 Raw 自由层；按 source→规划→双确认→生成→终审→修复的小型 harness 流程推进，默认 100% 信息保留的长文。触发场景：把 URL/PDF/DOCX/文章做成网页文章 / 长文 / briefing / 解释文 / 视觉文章 / 教程 / 审阅复盘 / 方案分析，'render this as a beautiful web article / 把这篇做成网页文章 / 生成一篇可分享的 HTML 长文 / reacticle 文章'。只生成文章，不生成后台、表单、dashboard、产品原型或通用 Web App。"
-  },
-  {
-   "repo": "ConardLi/garden-skills",
-   "path": "skills/gpt-image-2",
-   "name": "gpt-image-2",
-   "description": "面向 GPT Image 2 的图像生成 / 编辑技能。可在 3 种环境下使用：(A) Garden 本地模式，通过 OpenAI 兼容接口直接出图并落盘；(B) Host-Native 模式，把本 Skill 当作提示词工程指引，把渲染好的 prompt 交给宿主 Agent 自带的图像工具出图；(C) Advisor 模式，宿主无任何图像工具时退化为高质量 prompt 顾问。涵盖 18 大类、80+ 个结构化模板，覆盖海报 / UI / 产品 / 信息图 / 学术图 / 技术架构图 / 漫画 / 头像 / 流程板 / 电影分镜 / IP 周边 / 编辑工作流等场景。"
-  },
-  {
-   "repo": "ConardLi/garden-skills",
-   "path": "skills/kb-retriever",
-   "name": "kb-retriever",
-   "description": "面向本地知识库目录的检索和问答助手。核心流程：(1)分层索引导航 (2)遇到PDF/Excel时必须先读取references学习处理方法 (3)处理文件后再检索。按文件类型组合使用 grep、Read、pdfplumber、pandas 进行渐进式检索，避免整文件加载。用户问题涉及\"从知识库目录回答问题/检索信息/查资料\"时使用。"
-  },
-  {
-   "repo": "ConardLi/garden-skills",
-   "path": "skills/motion-showreel",
-   "name": "motion-showreel",
-   "description": "用代码制作图形、文字或界面动画视频，输出 MP4 和可编辑源码，最长 20 分钟。适用于动效作品集、产品片、UI 动效、动态排版、Logo 片头、生成艺术与讲解视频；支持独立选择 BGM/音效来源、用户口播，以及用用户提供的口播稿通过 TTS 合成语音。不用于实拍制作、写实人物生成或一般视频剪辑。"
-  },
-  {
-   "repo": "ConardLi/garden-skills",
-   "path": "skills/web-design-engineer",
-   "name": "web-design-engineer",
-   "description": "Build or redesign polished browser-rendered visual artifacts with HTML/CSS/JavaScript/React: pages, dashboards, prototypes, slide decks, animations, UI mockups, and data visualizations. Use for visual front-end creation, design-system exploration, design critique, or explicit browser acceptance / QA of a web artifact. Not for back-end, CLI, non-visual coding, source-to-longform article conversion, or narration-driven click-through video presentations."
-  },
-  {
-   "repo": "ConardLi/garden-skills",
-   "path": "skills/web-video-presentation",
-   "name": "web-video-presentation",
-   "description": "把一篇文章或口播稿，做成\"看起来像视频\"的点击驱动 16:9 网页演示，可选合成口播音频。流程：原始文章 → **一次产出**口播稿 + outline 开发计划 → 用户**一次对齐** 5 件事（稿子 / outline / 主题 / 素材 / 开发模式）→ 网页开发（逐章 / 顺序 / 并行）→ 可选音频合成（provider-agnostic：内置 MiniMax mmx-cli + OpenAI TTS，可换 ElevenLabs / edge-tts / Azure / 自带 TTS）。**outline 只规划节奏与信息密度，不规划动画** —— 动画由章节开发时按 PRINCIPLES + ANTI-AI 法则即时设计。每次点击推进口播稿的一个节拍，每一步独占整屏，进度条平时隐藏只在悬浮时出现。适用场景：用网页做视频（动态 PPT 但不像 PPT）、把口播稿 / 文章变成可交互的解说、为 B 站 / YouTube / 视频号录屏教程、做有电影感的产品 / talk demo。本 Skill 沉淀的是设计方法论 + 协作流程 —— 不绑定任何特定样式 / 字体 / 颜色 —— 因此能复用到任意主题与美学。"
-  },
-  {
-   "repo": "multica-ai/andrej-karpathy-skills",
-   "path": "skills/karpathy-guidelines",
-   "name": "karpathy-guidelines",
-   "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria."
-  },
-  {
    "repo": "kepano/obsidian-skills",
    "path": "skills/defuddle",
    "name": "defuddle",
@@ -2509,18 +2290,6 @@
    "path": "skills/obsidian-markdown",
    "name": "obsidian-markdown",
    "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes."
-  },
-  {
-   "repo": "AvdLee/SwiftUI-Agent-Skill",
-   "path": ".agents/skills/update-swiftui-apis",
-   "name": "update-swiftui-apis",
-   "description": "Scan Apple's SwiftUI documentation for deprecated APIs and update the SwiftUI Expert Skill with modern replacements. Use when asked to \"update latest APIs\", \"refresh deprecated SwiftUI APIs\", \"check for new SwiftUI deprecations\", \"scan for API changes\", or after a new iOS/Xcode release. Requires the Sosumi MCP to be available."
-  },
-  {
-   "repo": "AvdLee/SwiftUI-Agent-Skill",
-   "path": "skills/swiftui-expert-skill",
-   "name": "swiftui-expert-skill",
-   "description": "Use when writing, reviewing, or refactoring SwiftUI code for iOS or macOS, including state and `@Observable` data flow, view composition, resizable layouts, safe areas, display scale, performance, lists, environment, localization, animation, Liquid Glass, and API migration. Also use for iPhone Duo, foldable, or large-display layouts (`NavigationSplitView` on large displays, iPhone tab sidebar, two-column reflow, foldable grids, `ArrangementView`, `ReservedRegion`), hinge effects, vertical bars, `@State` initialization or synthesized-property diagnostics, `@ContentBuilder` ambiguity, `reorderable` drag/drop, custom `AsyncImage` `URLSession`, swipe actions outside List, item-bound `alert`/`confirmationDialog`, `ToolbarOverflowMenu`, `AnimatableValues`, Document APIs (`Document`/`DocumentReader`), and Instruments `.trace` capture or analysis."
   },
   {
    "repo": "mvanhorn/last30days-skill",
