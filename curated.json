@@ -1,0 +1,114 @@
+{
+ "anthropics/skills": [
+  "dedicated",
+  "Anthropic 公式のスキル集"
+ ],
+ "obra/superpowers": [
+  "dedicated",
+  "開発方法論のスキル集"
+ ],
+ "mattpocock/skills": [
+  "dedicated",
+  "実務エンジニアリングのスキル集"
+ ],
+ "kepano/obsidian-skills": [
+  "dedicated",
+  "Obsidian 用スキル集"
+ ],
+ "ConardLi/garden-skills": [
+  "dedicated",
+  "デザイン・知識検索等のスキル集"
+ ],
+ "heydamir/unslop": [
+  "dedicated",
+  "UI の AI っぽさを取るスキル（導入済み）"
+ ],
+ "wheresryan22/anatomy": [
+  "dedicated",
+  "等角分解イラスト（Hermes 導入済み）"
+ ],
+ "nanaism/yomiyasu": [
+  "dedicated",
+  "日本語推敲スキル"
+ ],
+ "virgiliojr94/book-to-skill": [
+  "dedicated",
+  "書籍 PDF をスキル化"
+ ],
+ "cathrynlavery/diagram-design": [
+  "dedicated",
+  "図解デザイン"
+ ],
+ "mvanhorn/last30days-skill": [
+  "dedicated",
+  "直近30日の話題リサーチ"
+ ],
+ "markdown-viewer/skills": [
+  "dedicated",
+  "図解・可視化"
+ ],
+ "earthtojake/text-to-cad": [
+  "dedicated",
+  "CAD / 3D プリント系スキル集"
+ ],
+ "AgriciDaniel/claude-obsidian": [
+  "dedicated",
+  "Obsidian 第二の脳スキル集"
+ ],
+ "AvdLee/SwiftUI-Agent-Skill": [
+  "dedicated",
+  "SwiftUI ベストプラクティス"
+ ],
+ "multica-ai/andrej-karpathy-skills": [
+  "dedicated",
+  "Karpathy 流ガイドライン"
+ ],
+ "ayghri/i-have-adhd": [
+  "dedicated",
+  "ADHD 配慮の出力スキル"
+ ],
+ "eugeniughelbur/obsidian-second-brain": [
+  "dedicated",
+  "Obsidian 永続メモリ"
+ ],
+ "AlexsJones/llmfit": [
+  "dedicated",
+  "LLM のハード適合アドバイザ"
+ ],
+ "academa-labs/manimgx": [
+  "dedicated",
+  "Manim アニメーション"
+ ],
+ "firecrawl/anydoc": [
+  "dedicated",
+  "文書→Markdown 変換"
+ ],
+ "guillaumemeyer/watermarks-remover": [
+  "dedicated",
+  "透かし除去・文面クリーニング"
+ ],
+ "abiosoft/colima": [
+  "dedicated",
+  "colima 利用スキル（M1 で利用中）"
+ ],
+ "DietrichGebert/ponytail": [
+  "dedicated",
+  "最小実装を促す行動スキル集"
+ ],
+ "anthropics/claude-cookbooks": [
+  "dedicated",
+  "財務系サンプルスキル（custom_skills の3件）"
+ ],
+ "ComposioHQ/awesome-claude-skills": [
+  "collection",
+  "キュレーション一覧＋Composio 自動化スキル 864 件"
+ ],
+ "NousResearch/hermes-agent": [
+  "agent-bundled",
+  "Hermes 本体のスキルライブラリ（optional-skills が追加プール）"
+ ],
+ "enesozturk/dimensional-drawing": [
+  "dedicated",
+  "寸法図スキル（導入済み）"
+ ]
+}

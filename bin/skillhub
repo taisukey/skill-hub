@@ -1,0 +1,238 @@
+#!/usr/bin/env python3
+"""skillhub - taisukey の GitHub Starred から抽出した Agent Skills カタログを、
+Muse / Hermes / DSH の各エージェントへ配布・管理する CLI。
+
+使い方:
+  skillhub search <keyword>          カタログを検索
+  skillhub list [--class CLASS]      リポジトリ一覧（分類つき）
+  skillhub install <name> [--agent Muse|hermes|dsh|all]
+  skillhub remove <name> [--agent ...]
+  skillhub installed                 このマシンへの導入状況
+  skillhub status                    ハブとエージェントの状態
+スキルの同定: name が一意でなければ owner/repo 形式（--repo）で絞る。
+"""
+import json
+import os
+import shutil
+import subprocess
+import sys
+
+HUB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CATALOG = os.path.join(HUB, "catalog.json")
+STATE = os.path.join(HUB, "installed.json")
+CACHE = os.path.join(HUB, "cache")
+HERMES_CATEGORY = "starred"
+
+
+def agent_targets():
+    """このマシンで利用可能なエージェントと、そのスキル配置先を返す。"""
+    home = os.path.expanduser("~")
+    targets = {}
+    claude_dir = None
+    for cand in (os.path.join(home, "workspace", "custom-skills"),
+                 os.path.join(home, ".claude", "skills")):
+        if os.path.isdir(cand):
+            claude_dir = cand
+            break
+    if claude_dir:
+        targets["Muse"] = claude_dir
+    hermes_base = os.path.join(home, ".hermes", "skills")
+    if os.path.isdir(hermes_base):
+        targets["hermes"] = os.path.join(hermes_base, HERMES_CATEGORY)
+    dsh_base = os.path.join(home, ".dsh")
+    if os.path.isdir(dsh_base):
+        targets["dsh"] = os.path.join(dsh_base, "skills")
+    return targets
+
+
+def load_catalog():
+    with open(CATALOG, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_state():
+    if os.path.exists(STATE):
+        with open(STATE, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_state(state):
+    with open(STATE, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=1)
+
+
+def find_skills(catalog, name, repo=None):
+    hits = [s for s in catalog["skills"]
+            if s["name"] == name and (repo is None or s["repo"] == repo)]
+    return hits
+
+
+def ensure_clone(repo):
+    dest = os.path.join(CACHE, repo.replace("/", "__"))
+    if os.path.isdir(os.path.join(dest, ".git")):
+        subprocess.run(["git", "-C", dest, "pull", "--quiet", "--ff-only"],
+                       capture_output=True, timeout=300)
+    else:
+        os.makedirs(CACHE, exist_ok=True)
+        r = subprocess.run(["git", "clone", "--quiet", "--depth", "1",
+                            f"https://github.com/{repo}.git", dest],
+                           capture_output=True, text=True, timeout=600)
+        if r.returncode != 0:
+            raise RuntimeError(f"clone 失敗: {repo}: {r.stderr.strip()[:200]}")
+    return dest
+
+
+def cmd_search(catalog, kw):
+    kw = kw.lower()
+    hits = [s for s in catalog["skills"]
+            if kw in (s["name"] or "").lower()
+            or kw in (s["description"] or "").lower()
+            or kw in s["repo"].lower()]
+    state = load_state()
+    for s in hits[:40]:
+        mark = " [installed]" if s["name"] in state else ""
+        cls = catalog["repos"][s["repo"]]["class"]
+        print(f"{s['name']}  ({s['repo']}, {cls}){mark}")
+        if s["description"]:
+            print(f"    {s['description'][:110]}")
+    print(f"--- {len(hits)} 件", file=sys.stderr)
+    return 0
+
+
+def cmd_list(catalog, cls_filter):
+    for repo, info in sorted(catalog["repos"].items()):
+        if cls_filter and info["class"] != cls_filter:
+            continue
+        print(f"{repo}  [{info['class']}] skills={info['skill_count']} ★{info['stars']}")
+        if info["note"]:
+            print(f"    {info['note']}")
+    return 0
+
+
+def cmd_install(catalog, name, agent, repo_hint):
+    hits = find_skills(catalog, name, repo_hint)
+    if not hits:
+        print(f"カタログに見つかりません: {name}")
+        return 1
+    if len(hits) > 1:
+        print("同名スキルが複数あります。--repo で指定してください:")
+        for h in hits:
+            print(f"  {h['repo']}:{h['path']}")
+        return 1
+    skill = hits[0]
+    targets = agent_targets()
+    if agent != "all":
+        targets = {k: v for k, v in targets.items() if k == agent}
+    if not targets:
+        print("対象エージェントがこのマシンにありません")
+        return 1
+    clone = ensure_clone(skill["repo"])
+    src = os.path.join(clone, skill["path"])
+    if not os.path.isfile(os.path.join(src, "SKILL.md")):
+        print(f"スキル実体が見つかりません: {src}")
+        return 1
+    state = load_state()
+    entry = state.get(name, {"repo": skill["repo"], "path": skill["path"], "agents": {}})
+    for ag, base in targets.items():
+        dest = os.path.join(base, name)
+        if os.path.exists(dest):
+            print(f"{ag}: 既に存在します（skip） {dest}")
+            continue
+        os.makedirs(base, exist_ok=True)
+        shutil.copytree(src, dest)
+        entry["agents"][ag] = dest
+        print(f"{ag}: 導入しました → {dest}")
+    state[name] = entry
+    save_state(state)
+    return 0
+
+
+def cmd_remove(catalog, name, agent):
+    state = load_state()
+    entry = state.get(name)
+    if not entry:
+        print(f"導入記録がありません: {name}")
+        return 1
+    for ag, dest in list(entry["agents"].items()):
+        if agent != "all" and ag != agent:
+            continue
+        if os.path.isdir(dest):
+            shutil.rmtree(dest)
+            print(f"{ag}: 削除しました {dest}")
+        del entry["agents"][ag]
+    if entry["agents"]:
+        state[name] = entry
+    else:
+        state.pop(name, None)
+    save_state(state)
+    return 0
+
+
+def cmd_installed(catalog):
+    state = load_state()
+    if not state:
+        print("このマシンにはまだ導入されていません")
+        return 0
+    for name, e in sorted(state.items()):
+        ags = ", ".join(sorted(e["agents"]))
+        print(f"{name}  ({e['repo']}) → {ags}")
+    return 0
+
+
+def cmd_status(catalog):
+    repos = catalog["repos"]
+    from collections import Counter
+    c = Counter(v["class"] for v in repos.values())
+    print(f"カタログ: {len(repos)} repos / {len(catalog['skills'])} skills")
+    for k, v in sorted(c.items()):
+        print(f"  {k}: {v} repos")
+    print("このマシンのエージェント:")
+    for ag, path in agent_targets().items():
+        print(f"  {ag}: {path}")
+    return 0
+
+
+def main(argv):
+    if len(argv) < 2:
+        print(__doc__)
+        return 0
+    catalog = load_catalog()
+    cmd = argv[1]
+    args = argv[2:]
+    agent = "all"
+    repo_hint = None
+    cls_filter = None
+    rest = []
+    i = 0
+    while i < len(args):
+        if args[i] == "--agent" and i + 1 < len(args):
+            agent = args[i + 1]
+            i += 2
+        elif args[i] == "--repo" and i + 1 < len(args):
+            repo_hint = args[i + 1]
+            i += 2
+        elif args[i] == "--class" and i + 1 < len(args):
+            cls_filter = args[i + 1]
+            i += 2
+        else:
+            rest.append(args[i])
+            i += 1
+    if cmd == "search" and rest:
+        return cmd_search(catalog, " ".join(rest))
+    if cmd == "list":
+        return cmd_list(catalog, cls_filter)
+    if cmd == "install" and rest:
+        return cmd_install(catalog, rest[0], agent, repo_hint)
+    if cmd == "remove" and rest:
+        return cmd_remove(catalog, rest[0], agent)
+    if cmd == "installed":
+        return cmd_installed(catalog)
+    if cmd == "status":
+        return cmd_status(catalog)
+    print(__doc__)
+    return 1
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))
