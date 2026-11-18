@@ -110,5 +110,9 @@
  "enesozturk/dimensional-drawing": [
   "dedicated",
   "寸法図スキル（導入済み）"
+ ],
+ "NVIDIA/SkillSpector": [
+  "dedicated",
+  "スキル導入前のセキュリティスキャナ（門番として採用済み、同梱 skill-inspector）"
  ]
 }

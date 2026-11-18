@@ -110,6 +110,8 @@ def main():
         }
         if cls in ("dedicated", "collection", "agent-bundled"):
             for p in paths:
+                if p.startswith(("tests/", "test/")) or "/fixtures/" in p:
+                    continue  # テスト用フィクスチャは導入候補にしない
                 targets.append((repo, p))
     print(f"SKILL.md 保有: {len(catalog['repos'])} repos / 収集対象 {len(targets)}", file=sys.stderr)
 
