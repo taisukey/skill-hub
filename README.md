@@ -1,6 +1,6 @@
 # skill-hub
 
-taisukey の GitHub Starred から **Agent Skills（SKILL.md を含むリポジトリ）だけ** を抽出した
+GitHub Starred から **Agent Skills（SKILL.md を含むリポジトリ）だけ** を抽出した
 カタログと、それを Muse / Hermes / DeepSeek Harness (DSH) の各エージェントへ
 配布するための CLI。スター 135 件 → SKILL.md 保有 60 リポジトリ / 1,258 スキルを分類済み。
 
