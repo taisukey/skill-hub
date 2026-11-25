@@ -5,11 +5,11 @@
  ],
  "obra/superpowers": [
   "dedicated",
-  "開発方法論のスキル集"
+  "開発方法論のスキル集（2026-11-25 振分：TKY-OPS §7 と重複のため全断捨離）"
  ],
  "mattpocock/skills": [
   "dedicated",
-  "実務エンジニアリングのスキル集"
+  "実務エンジニアリングのスキル集（2026-11-25 振分：grilling・wizard のみ部品取り導入、残り断捨離）"
  ],
  "kepano/obsidian-skills": [
   "dedicated",
@@ -49,7 +49,7 @@
  ],
  "earthtojake/text-to-cad": [
   "dedicated",
-  "CAD / 3D プリント系スキル集"
+  "text-to-CAD プラットフォームのスキル群（2026-11-25 振分：cad サーバ前提のためスキル単体では入れない。プラットフォーム採用は別件判断）"
  ],
  "AgriciDaniel/claude-obsidian": [
   "dedicated",
@@ -65,7 +65,7 @@
  ],
  "ayghri/i-have-adhd": [
   "dedicated",
-  "ADHD 配慮の出力スキル"
+  "ADHD 読み手向け出力整形（2026-11-25 振分：i-have-adhd を導入）"
  ],
  "eugeniughelbur/obsidian-second-brain": [
   "dedicated",
@@ -81,11 +81,11 @@
  ],
  "firecrawl/anydoc": [
   "dedicated",
-  "文書→Markdown 変換"
+  "文書→Markdown 変換（2026-11-25 振分：既存 documents と重複し断捨離）"
  ],
  "guillaumemeyer/watermarks-remover": [
   "dedicated",
-  "透かし除去・文面クリーニング"
+  "文章の AI 痕跡掃除（2026-11-25 振分：nihongo・unslop と重複し断捨離）"
  ],
  "abiosoft/colima": [
   "dedicated",
@@ -93,7 +93,7 @@
  ],
  "DietrichGebert/ponytail": [
   "dedicated",
-  "最小実装を促す行動スキル集"
+  "最小変更を旨とするスキル集（2026-11-25 振分：shortcut: マーカー前提で手元のコードに合わず全断捨離）"
  ],
  "anthropics/claude-cookbooks": [
   "dedicated",

@@ -13,7 +13,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-   "stars": 209354,
+   "stars": 209367,
    "url": "https://github.com/firecrawl/firecrawl",
    "skill_count": 5,
    "branch": "main"
@@ -22,7 +22,7 @@
    "class": "product-internal",
    "note": "",
    "description": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.",
-   "stars": 4608,
+   "stars": 4610,
    "url": "https://github.com/microsoft/flint-chart",
    "skill_count": 11,
    "branch": "main"
@@ -49,7 +49,7 @@
    "class": "product-internal",
    "note": "",
    "description": "A library of behaviors for agents to build and drive the next generation of user interfaces.",
-   "stars": 7355,
+   "stars": 7356,
    "url": "https://github.com/vercel-labs/ui",
    "skill_count": 5,
    "branch": "main"
@@ -58,7 +58,7 @@
    "class": "product-internal",
    "note": "",
    "description": "An open source design system that's fully customizable and agent ready",
-   "stars": 32968,
+   "stars": 32970,
    "url": "https://github.com/meta/astryx",
    "skill_count": 1,
    "branch": "main"
@@ -76,7 +76,7 @@
    "class": "dedicated",
    "note": "",
    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-   "stars": 78126,
+   "stars": 78130,
    "url": "https://github.com/cloudflare/security-audit-skill",
    "skill_count": 1,
    "branch": "main"
@@ -94,7 +94,7 @@
    "class": "dedicated",
    "note": "UI の AI っぽさを取るスキル（導入済み）",
    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-   "stars": 21431,
+   "stars": 21434,
    "url": "https://github.com/heydamir/unslop",
    "skill_count": 1,
    "branch": "main"
@@ -103,7 +103,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Computer use CLI for AI agents",
-   "stars": 26569,
+   "stars": 26572,
    "url": "https://github.com/vercel-labs/agent-desktop",
    "skill_count": 8,
    "branch": "main"
@@ -112,7 +112,7 @@
    "class": "dedicated",
    "note": "等角分解イラスト（Hermes 導入済み）",
    "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-   "stars": 29112,
+   "stars": 29114,
    "url": "https://github.com/wheresryan22/anatomy",
    "skill_count": 1,
    "branch": "main"
@@ -146,18 +146,18 @@
   },
   "mattpocock/skills": {
    "class": "dedicated",
-   "note": "実務エンジニアリングのスキル集",
+   "note": "実務エンジニアリングのスキル集（2026-11-25 振分：grilling・wizard のみ部品取り導入、残り断捨離）",
    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-   "stars": 332502,
+   "stars": 332508,
    "url": "https://github.com/mattpocock/skills",
    "skill_count": 39,
    "branch": "main"
   },
   "obra/superpowers": {
    "class": "dedicated",
-   "note": "開発方法論のスキル集",
+   "note": "開発方法論のスキル集（2026-11-25 振分：TKY-OPS §7 と重複のため全断捨離）",
    "description": "An agentic skills framework & software development methodology that works.",
-   "stars": 326137,
+   "stars": 326150,
    "url": "https://github.com/obra/superpowers",
    "skill_count": 15,
    "branch": "main"
@@ -175,7 +175,7 @@
    "class": "product-internal",
    "note": "",
    "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-   "stars": 18156,
+   "stars": 18159,
    "url": "https://github.com/tangency-labs/solidcraft",
    "skill_count": 27,
    "branch": "main"
@@ -184,7 +184,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-   "stars": 477685,
+   "stars": 477701,
    "url": "https://github.com/morluto/rea",
    "skill_count": 6,
    "branch": "main"
@@ -193,7 +193,7 @@
    "class": "dedicated",
    "note": "図解デザイン",
    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-   "stars": 72456,
+   "stars": 72463,
    "url": "https://github.com/cathrynlavery/diagram-design",
    "skill_count": 1,
    "branch": "main"
@@ -202,23 +202,23 @@
    "class": "dedicated",
    "note": "書籍 PDF をスキル化",
    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-   "stars": 38994,
+   "stars": 38995,
    "url": "https://github.com/virgiliojr94/book-to-skill",
    "skill_count": 1,
    "branch": "master"
   },
   "ayghri/i-have-adhd": {
    "class": "dedicated",
-   "note": "ADHD 配慮の出力スキル",
+   "note": "ADHD 読み手向け出力整形（2026-11-25 振分：i-have-adhd を導入）",
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-   "stars": 62226,
+   "stars": 62230,
    "url": "https://github.com/ayghri/i-have-adhd",
    "skill_count": 2,
    "branch": "main"
   },
   "firecrawl/anydoc": {
    "class": "dedicated",
-   "note": "文書→Markdown 変換",
+   "note": "文書→Markdown 変換（2026-11-25 振分：既存 documents と重複し断捨離）",
    "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
    "stars": 23700,
    "url": "https://github.com/firecrawl/anydoc",
@@ -236,27 +236,27 @@
   },
   "guillaumemeyer/watermarks-remover": {
    "class": "dedicated",
-   "note": "透かし除去・文面クリーニング",
+   "note": "文章の AI 痕跡掃除（2026-11-25 振分：nihongo・unslop と重複し断捨離）",
    "description": "A privacy-first app that strips AI watermarks from content you own.",
-   "stars": 28421,
+   "stars": 28428,
    "url": "https://github.com/guillaumemeyer/watermarks-remover",
    "skill_count": 2,
    "branch": "main"
   },
   "DietrichGebert/ponytail": {
    "class": "dedicated",
-   "note": "最小実装を促す行動スキル集",
+   "note": "最小変更を旨とするスキル集（2026-11-25 振分：shortcut: マーカー前提で手元のコードに合わず全断捨離）",
    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-   "stars": 198356,
+   "stars": 198365,
    "url": "https://github.com/DietrichGebert/ponytail",
    "skill_count": 13,
    "branch": "main"
   },
   "earthtojake/text-to-cad": {
    "class": "dedicated",
-   "note": "CAD / 3D プリント系スキル集",
+   "note": "text-to-CAD プラットフォームのスキル群（2026-11-25 振分：cad サーバ前提のためスキル単体では入れない。プラットフォーム採用は別件判断）",
    "description": "Design physical products with AI",
-   "stars": 27406,
+   "stars": 27408,
    "url": "https://github.com/earthtojake/text-to-cad",
    "skill_count": 8,
    "branch": "main"
@@ -265,7 +265,7 @@
    "class": "product-internal",
    "note": "",
    "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-   "stars": 29099,
+   "stars": 29101,
    "url": "https://github.com/google-labs-code/design.md",
    "skill_count": 4,
    "branch": "main"
@@ -283,7 +283,7 @@
    "class": "agent-bundled",
    "note": "Hermes 本体のスキルライブラリ（optional-skills が追加プール）",
    "description": "The agent that grows with you",
-   "stars": 265985,
+   "stars": 265987,
    "url": "https://github.com/NousResearch/hermes-agent",
    "skill_count": 186,
    "branch": "main"
@@ -301,7 +301,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
-   "stars": 63866,
+   "stars": 63867,
    "url": "https://github.com/BerriAI/litellm",
    "skill_count": 10,
    "branch": "main"
@@ -310,7 +310,7 @@
    "class": "dedicated",
    "note": "",
    "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
-   "stars": 53706,
+   "stars": 53708,
    "url": "https://github.com/obsidianmd/obsidian-skills",
    "skill_count": 7,
    "branch": "main"
@@ -319,7 +319,7 @@
    "class": "dedicated",
    "note": "直近30日の話題リサーチ",
    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-   "stars": 74622,
+   "stars": 74630,
    "url": "https://github.com/mvanhorn/last30days-skill",
    "skill_count": 1,
    "branch": "main"
@@ -328,7 +328,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Browser automation CLI for AI agents",
-   "stars": 53873,
+   "stars": 53876,
    "url": "https://github.com/vercel-labs/agent-browser",
    "skill_count": 12,
    "branch": "main"
@@ -346,7 +346,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The open source coding agent.",
-   "stars": 229059,
+   "stars": 229062,
    "url": "https://github.com/anomalyco/opencode",
    "skill_count": 25,
    "branch": "dev"
@@ -355,7 +355,7 @@
    "class": "product-internal",
    "note": "",
    "description": "🐹 Open-source Mac and PC cleaner. Keep your machine clean, light, and running like new. Fast CLI, plus native Mac and Windows apps.",
-   "stars": 76132,
+   "stars": 76133,
    "url": "https://github.com/tw93/Mole",
    "skill_count": 6,
    "branch": "main"
@@ -364,7 +364,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-   "stars": 212074,
+   "stars": 212076,
    "url": "https://github.com/n8n-io/n8n",
    "skill_count": 46,
    "branch": "master"
@@ -373,7 +373,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-   "stars": 115430,
+   "stars": 115431,
    "url": "https://github.com/supabase/supabase",
    "skill_count": 25,
    "branch": "master"
@@ -382,7 +382,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The React Framework",
-   "stars": 143685,
+   "stars": 143686,
    "url": "https://github.com/vercel/next.js",
    "skill_count": 30,
    "branch": "canary"
@@ -427,7 +427,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
-   "stars": 71596,
+   "stars": 71597,
    "url": "https://github.com/ansible/ansible",
    "skill_count": 4,
    "branch": "devel"
@@ -436,7 +436,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-   "stars": 78142,
+   "stars": 78143,
    "url": "https://github.com/grafana/grafana",
    "skill_count": 3,
    "branch": "main"
@@ -445,7 +445,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-   "stars": 123964,
+   "stars": 123966,
    "url": "https://github.com/nodejs/node",
    "skill_count": 33,
    "branch": "main"

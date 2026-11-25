@@ -5,8 +5,8 @@ GitHub Starred から SKILL.md を含むリポジトリだけを抽出し、分�
 
 ## 専用スキル集（導入候補）（20 repos）
 
-### [mattpocock/skills](https://github.com/mattpocock/skills) — 39 skills ★332502
-> 実務エンジニアリングのスキル集
+### [mattpocock/skills](https://github.com/mattpocock/skills) — 39 skills ★332508
+> 実務エンジニアリングのスキル集（2026-11-25 振分：grilling・wizard のみ部品取り導入、残り断捨離）
 Skills for Real Engineers. Straight from my .agents directory.
 - **ask-matt** (`skills/engineering/ask-matt`) — Ask which skill or flow fits your situation. A router over the skills in this repo.
 - **code-review** (`skills/engineering/code-review`) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standard
@@ -48,8 +48,8 @@ Skills for Real Engineers. Straight from my .agents directory.
 - **wait-what** (`skills/productivity/wait-what`) — Stop. That last message did not land: re-pitch it.
 - **writing-for-agents** (`skills/productivity/writing-for-agents`) — Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.
 
-### [obra/superpowers](https://github.com/obra/superpowers) — 15 skills ★326137
-> 開発方法論のスキル集
+### [obra/superpowers](https://github.com/obra/superpowers) — 15 skills ★326150
+> 開発方法論のスキル集（2026-11-25 振分：TKY-OPS §7 と重複のため全断捨離）
 An agentic skills framework & software development methodology that works.
 - **brainstorming** (`skills/brainstorming`) — You MUST use this before any creative work - creating features, building components, adding function
 - **diagnosing-superpowers** (`skills/diagnosing-superpowers`) — Use when a superpowers session went wrong and your human partner wants to know why — repeated work, 
@@ -67,8 +67,8 @@ An agentic skills framework & software development methodology that works.
 - **writing-plans** (`skills/writing-plans`) — Use when you have a spec or requirements for a multi-step task, before touching code
 - **writing-skills** (`skills/writing-skills`) — Use when creating new skills, editing existing skills, or verifying skills work before deployment
 
-### [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — 13 skills ★198356
-> 最小実装を促す行動スキル集
+### [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — 13 skills ★198365
+> 最小変更を旨とするスキル集（2026-11-25 振分：shortcut: マーカー前提で手元のコードに合わず全断捨離）
 Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 - **ponytail-audit** (`.openclaw/skills/ponytail-audit`) — Quality audit of the whole repo: bugs, security, real load, missing tests, speed, and what to delete
 - **ponytail-debt** (`.openclaw/skills/ponytail-debt`) — Harvest every shortcut: comment into one debt ledger, so deferrals get tracked instead of forgotten.
@@ -84,27 +84,27 @@ Makes your AI agent think like the laziest senior dev in the room. The best code
 - **ponytail-review** (`skills/ponytail-review`) — >
 - **ponytail** (`skills/ponytail`) — >
 
-### [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — 1 skills ★78126
+### [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — 1 skills ★78130
 A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
 - **security-audit** (`skills/security-audit`) — Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and 
 
-### [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — 1 skills ★74622
+### [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — 1 skills ★74630
 > 直近30日の話題リサーチ
 AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
 - **last30days** (`skills/last30days`) — Research what people actually say about any topic in the last 30 days. Pulls posts and engagement fr
 
-### [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 1 skills ★72456
+### [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 1 skills ★72463
 > 図解デザイン
 Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 - **diagram-design** (`skills/diagram-design`) — Create branded architecture, architecture delta, IT current-state, flowchart, sequence, state machin
 
-### [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — 2 skills ★62226
-> ADHD 配慮の出力スキル
+### [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — 2 skills ★62230
+> ADHD 読み手向け出力整形（2026-11-25 振分：i-have-adhd を導入）
 A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 - **i-have-adhd** (`.cursor/skills/i-have-adhd`) — Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate stat
 - **i-have-adhd** (`skills/i-have-adhd`) — Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate stat
 
-### [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) — 7 skills ★53706
+### [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) — 7 skills ★53708
 Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.
 - **defuddle** (`plugins/obsidian/skills/defuddle`) — Extract clean Markdown from HTML pages with Defuddle CLI.
 - **json-canvas** (`plugins/obsidian/skills/json-canvas`) — Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when wor
@@ -114,7 +114,7 @@ Teach your agent to use Obsidian and open formats including Markdown, Bases, JSO
 - **obsidian-headless** (`plugins/obsidian/skills/obsidian-headless`) — Sync and publish Obsidian vaults from the command line with Obsidian Headless (`ob`), without the de
 - **obsidian-markdown** (`plugins/obsidian/skills/obsidian-markdown`) — Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other O
 
-### [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — 1 skills ★38994
+### [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — 1 skills ★38995
 > 書籍 PDF をスキル化
 Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
 - **book-to-skill** (`.`) — Converts books and documents into structured agent skills from local files (PDF, EPUB, DOCX, HTML, M
@@ -124,13 +124,13 @@ Turn any technical book PDF into a Claude Code skill — ready to study, referen
 Container runtimes on macOS (and Linux) with minimal setup
 - **colima** (`skills`) — >-
 
-### [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) — 1 skills ★29112
+### [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) — 1 skills ★29114
 > 等角分解イラスト（Hermes 導入済み）
 An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.
 - **anatomy** (`.`) — Build crafted, highly detailed, interactive isometric SVG figures that explain a technical idea as a
 
-### [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — 2 skills ★28421
-> 透かし除去・文面クリーニング
+### [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — 2 skills ★28428
+> 文章の AI 痕跡掃除（2026-11-25 振分：nihongo・unslop と重複し断捨離）
 A privacy-first app that strips AI watermarks from content you own.
 - **clean-user-facing-text** (`skills/clean-user-facing-text`) — Clean and finalize authorized natural-language text intended for readers by auditing suspicious invi
 - **remove-ai-marks** (`skills/remove-ai-marks`) — >
@@ -140,8 +140,8 @@ A privacy-first app that strips AI watermarks from content you own.
 Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.
 - **skill-inspector** (`skills/skill-inspector`) — Review AI agent skills before installation using NVIDIA SkillSpector and source-aware semantic revie
 
-### [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — 8 skills ★27406
-> CAD / 3D プリント系スキル集
+### [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — 8 skills ★27408
+> text-to-CAD プラットフォームのスキル群（2026-11-25 振分：cad サーバ前提のためスキル単体では入れない。プラットフォーム採用は別件判断）
 Design physical products with AI
 - **cad** (`skills/cad`) — Designs and edits 3D CAD - parametric parts, assemblies, mechanisms and 2D cut profiles, written as 
 - **engineering-drawing** (`skills/engineering-drawing`) — Makes an engineering drawing of a part as a PDF, projected from its 3D geometry so the drawing follo
@@ -153,11 +153,11 @@ Design physical products with AI
 - **sendcutsend** (`skills/sendcutsend`) — Checks DXF and STEP files against SendCutSend.com's ordering guide, catalog and specs before an orde
 
 ### [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — 1 skills ★23700
-> 文書→Markdown 変換
+> 文書→Markdown 変換（2026-11-25 振分：既存 documents と重複し断捨離）
 Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.
 - **convert-documents-to-markdown** (`skills/convert-documents-to-markdown`) — Convert Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx), OpenDocument (.odt, .ods,
 
-### [heydamir/unslop](https://github.com/heydamir/unslop) — 1 skills ★21431
+### [heydamir/unslop](https://github.com/heydamir/unslop) — 1 skills ★21434
 > UI の AI っぽさを取るスキル（導入済み）
 A Claude skill that turns vibecoded, AI-looking UI into a designed interface
 - **unslop** (`skills/unslop`) — Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction f
@@ -183,7 +183,7 @@ Agent skill: map your chat threads (main + side chats) as a graph x historic tim
 
 ## エージェント同梱（1 repos）
 
-### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 186 skills ★265985
+### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 186 skills ★265987
 > Hermes 本体のスキルライブラリ（optional-skills が追加プール）
 The agent that grows with you
 - **agent-merge-conflict-arbiter** (`optional-skills/autonomous-ai-agents/agent-merge-conflict-arbiter`) — Neutral arbiter for merge conflicts between two agents.
@@ -375,28 +375,28 @@ The agent that grows with you
 
 ## 製品スコープ（通常は入れない）（29 repos）
 
-### [morluto/rea](https://github.com/morluto/rea) — 6 skills ★477685
+### [morluto/rea](https://github.com/morluto/rea) — 6 skills ★477701
 Reverse engineer anything with agents, from app behavior down to native binaries.
 
 ### [react/react](https://github.com/react/react) — 14 skills ★252895
 The library for web and native user interfaces.
 
-### [anomalyco/opencode](https://github.com/anomalyco/opencode) — 25 skills ★229059
+### [anomalyco/opencode](https://github.com/anomalyco/opencode) — 25 skills ★229062
 The open source coding agent.
 
-### [n8n-io/n8n](https://github.com/n8n-io/n8n) — 46 skills ★212074
+### [n8n-io/n8n](https://github.com/n8n-io/n8n) — 46 skills ★212076
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
-### [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — 5 skills ★209354
+### [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — 5 skills ★209367
 Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
 
-### [vercel/next.js](https://github.com/vercel/next.js) — 30 skills ★143685
+### [vercel/next.js](https://github.com/vercel/next.js) — 30 skills ★143686
 The React Framework
 
-### [nodejs/node](https://github.com/nodejs/node) — 33 skills ★123964
+### [nodejs/node](https://github.com/nodejs/node) — 33 skills ★123966
 Node.js JavaScript runtime ✨🐢🚀✨
 
-### [supabase/supabase](https://github.com/supabase/supabase) — 25 skills ★115430
+### [supabase/supabase](https://github.com/supabase/supabase) — 25 skills ★115431
 The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
 
 ### [microsoft/TypeScript](https://github.com/microsoft/TypeScript) — 4 skills ★111895
@@ -405,46 +405,46 @@ TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 ### [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — 1 skills ★95900
 JavaScript API for Chrome and Firefox
 
-### [grafana/grafana](https://github.com/grafana/grafana) — 3 skills ★78142
+### [grafana/grafana](https://github.com/grafana/grafana) — 3 skills ★78143
 The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. 
 
-### [tw93/Mole](https://github.com/tw93/Mole) — 6 skills ★76132
+### [tw93/Mole](https://github.com/tw93/Mole) — 6 skills ★76133
 🐹 Open-source Mac and PC cleaner. Keep your machine clean, light, and running like new. Fast CLI, plus native Mac and Windows apps.
 
-### [ansible/ansible](https://github.com/ansible/ansible) — 4 skills ★71596
+### [ansible/ansible](https://github.com/ansible/ansible) — 4 skills ★71597
 Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
 
 ### [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) — 1 skills ★64439
 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
 
-### [BerriAI/litellm](https://github.com/BerriAI/litellm) — 10 skills ★63866
+### [BerriAI/litellm](https://github.com/BerriAI/litellm) — 10 skills ★63867
 The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
 
-### [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) — 12 skills ★53873
+### [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) — 12 skills ★53876
 Browser automation CLI for AI agents
 
 ### [pandas-dev/pandas](https://github.com/pandas-dev/pandas) — 1 skills ★50626
 Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
 
-### [meta/astryx](https://github.com/meta/astryx) — 1 skills ★32968
+### [meta/astryx](https://github.com/meta/astryx) — 1 skills ★32970
 An open source design system that's fully customizable and agent ready
 
 ### [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) — 1 skills ★29412
 The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.
 
-### [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — 4 skills ★29099
+### [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — 4 skills ★29101
 A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.
 
 ### [virattt/dexter](https://github.com/virattt/dexter) — 3 skills ★28032
 An autonomous agent for deep financial research
 
-### [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) — 8 skills ★26569
+### [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) — 8 skills ★26572
 Computer use CLI for AI agents
 
 ### [steipete/CodexBar](https://github.com/steipete/CodexBar) — 3 skills ★23331
 Show usage stats for OpenAI Codex and Claude Code, without having to login.
 
-### [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) — 27 skills ★18156
+### [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) — 27 skills ★18159
 SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.
 
 ### [emdash-cms/emdash](https://github.com/emdash-cms/emdash) — 39 skills ★14590
@@ -453,10 +453,10 @@ EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to
 ### [microsoft/inshellisense](https://github.com/microsoft/inshellisense) — 1 skills ★10785
 IDE style command line auto complete
 
-### [vercel-labs/ui](https://github.com/vercel-labs/ui) — 5 skills ★7355
+### [vercel-labs/ui](https://github.com/vercel-labs/ui) — 5 skills ★7356
 A library of behaviors for agents to build and drive the next generation of user interfaces.
 
-### [microsoft/flint-chart](https://github.com/microsoft/flint-chart) — 11 skills ★4608
+### [microsoft/flint-chart](https://github.com/microsoft/flint-chart) — 11 skills ★4610
 🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.
 
 ### [xykong/flux-markdown](https://github.com/xykong/flux-markdown) — 2 skills ★1361
