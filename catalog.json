@@ -1,10 +1,37 @@
 {
  "repos": {
+  "emdash-cms/emdash": {
+   "class": "product-internal",
+   "note": "",
+   "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress",
+   "stars": 14590,
+   "url": "https://github.com/emdash-cms/emdash",
+   "skill_count": 39,
+   "branch": "main"
+  },
+  "firecrawl/firecrawl": {
+   "class": "product-internal",
+   "note": "",
+   "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+   "stars": 209354,
+   "url": "https://github.com/firecrawl/firecrawl",
+   "skill_count": 5,
+   "branch": "main"
+  },
+  "microsoft/flint-chart": {
+   "class": "product-internal",
+   "note": "",
+   "description": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.",
+   "stars": 4608,
+   "url": "https://github.com/microsoft/flint-chart",
+   "skill_count": 11,
+   "branch": "main"
+  },
   "NVIDIA/SkillSpector": {
    "class": "dedicated",
    "note": "スキル導入前のセキュリティスキャナ（門番として採用済み、同梱 skill-inspector）",
    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-   "stars": 26750,
+   "stars": 27597,
    "url": "https://github.com/NVIDIA/SkillSpector",
    "skill_count": 34,
    "branch": "main"
@@ -13,7 +40,7 @@
    "class": "dedicated",
    "note": "",
    "description": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
-   "stars": 11166,
+   "stars": 11269,
    "url": "https://github.com/nicobailon/visual-explainer",
    "skill_count": 1,
    "branch": "main"
@@ -21,8 +48,8 @@
   "vercel-labs/ui": {
    "class": "product-internal",
    "note": "",
-   "description": "A library of behaviors for agents to build the next generation of user interfaces.",
-   "stars": 5748,
+   "description": "A library of behaviors for agents to build and drive the next generation of user interfaces.",
+   "stars": 7355,
    "url": "https://github.com/vercel-labs/ui",
    "skill_count": 5,
    "branch": "main"
@@ -31,7 +58,7 @@
    "class": "product-internal",
    "note": "",
    "description": "An open source design system that's fully customizable and agent ready",
-   "stars": 30475,
+   "stars": 32968,
    "url": "https://github.com/meta/astryx",
    "skill_count": 1,
    "branch": "main"
@@ -40,7 +67,7 @@
    "class": "product-internal",
    "note": "",
    "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
-   "stars": 64213,
+   "stars": 64439,
    "url": "https://github.com/ghostty-org/ghostty",
    "skill_count": 1,
    "branch": "main"
@@ -49,7 +76,7 @@
    "class": "dedicated",
    "note": "",
    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-   "stars": 75182,
+   "stars": 78126,
    "url": "https://github.com/cloudflare/security-audit-skill",
    "skill_count": 1,
    "branch": "main"
@@ -67,7 +94,7 @@
    "class": "dedicated",
    "note": "UI の AI っぽさを取るスキル（導入済み）",
    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-   "stars": 18122,
+   "stars": 21431,
    "url": "https://github.com/heydamir/unslop",
    "skill_count": 1,
    "branch": "main"
@@ -76,7 +103,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Computer use CLI for AI agents",
-   "stars": 25229,
+   "stars": 26569,
    "url": "https://github.com/vercel-labs/agent-desktop",
    "skill_count": 8,
    "branch": "main"
@@ -85,7 +112,7 @@
    "class": "dedicated",
    "note": "等角分解イラスト（Hermes 導入済み）",
    "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-   "stars": 28051,
+   "stars": 29112,
    "url": "https://github.com/wheresryan22/anatomy",
    "skill_count": 1,
    "branch": "main"
@@ -94,7 +121,7 @@
    "class": "dedicated",
    "note": "寸法図スキル（導入済み）",
    "description": "Create Apple style dimensional drawings of UI components.",
-   "stars": 2193,
+   "stars": 2248,
    "url": "https://github.com/enesozturk/dimensional-drawing",
    "skill_count": 2,
    "branch": "main"
@@ -103,7 +130,7 @@
    "class": "dedicated",
    "note": "colima 利用スキル（M1 で利用中）",
    "description": "Container runtimes on macOS (and Linux) with minimal setup",
-   "stars": 31759,
+   "stars": 31827,
    "url": "https://github.com/abiosoft/colima",
    "skill_count": 1,
    "branch": "main"
@@ -112,7 +139,7 @@
    "class": "dedicated",
    "note": "日本語推敲スキル",
    "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-   "stars": 3373,
+   "stars": 3504,
    "url": "https://github.com/nanaism/yomiyasu",
    "skill_count": 1,
    "branch": "main"
@@ -121,7 +148,7 @@
    "class": "dedicated",
    "note": "実務エンジニアリングのスキル集",
    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-   "stars": 327259,
+   "stars": 332502,
    "url": "https://github.com/mattpocock/skills",
    "skill_count": 39,
    "branch": "main"
@@ -130,7 +157,7 @@
    "class": "dedicated",
    "note": "開発方法論のスキル集",
    "description": "An agentic skills framework & software development methodology that works.",
-   "stars": 319808,
+   "stars": 326137,
    "url": "https://github.com/obra/superpowers",
    "skill_count": 15,
    "branch": "main"
@@ -139,7 +166,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-   "stars": 23211,
+   "stars": 23331,
    "url": "https://github.com/steipete/CodexBar",
    "skill_count": 3,
    "branch": "main"
@@ -148,16 +175,16 @@
    "class": "product-internal",
    "note": "",
    "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-   "stars": 17060,
+   "stars": 18156,
    "url": "https://github.com/tangency-labs/solidcraft",
-   "skill_count": 19,
+   "skill_count": 27,
    "branch": "main"
   },
   "morluto/rea": {
    "class": "product-internal",
    "note": "",
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-   "stars": 467712,
+   "stars": 477685,
    "url": "https://github.com/morluto/rea",
    "skill_count": 6,
    "branch": "main"
@@ -165,8 +192,8 @@
   "cathrynlavery/diagram-design": {
    "class": "dedicated",
    "note": "図解デザイン",
-   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-   "stars": 68149,
+   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "stars": 72456,
    "url": "https://github.com/cathrynlavery/diagram-design",
    "skill_count": 1,
    "branch": "main"
@@ -175,7 +202,7 @@
    "class": "dedicated",
    "note": "書籍 PDF をスキル化",
    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-   "stars": 38369,
+   "stars": 38994,
    "url": "https://github.com/virgiliojr94/book-to-skill",
    "skill_count": 1,
    "branch": "master"
@@ -184,7 +211,7 @@
    "class": "dedicated",
    "note": "ADHD 配慮の出力スキル",
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-   "stars": 61602,
+   "stars": 62226,
    "url": "https://github.com/ayghri/i-have-adhd",
    "skill_count": 2,
    "branch": "main"
@@ -193,7 +220,7 @@
    "class": "dedicated",
    "note": "文書→Markdown 変換",
    "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-   "stars": 23601,
+   "stars": 23700,
    "url": "https://github.com/firecrawl/anydoc",
    "skill_count": 1,
    "branch": "main"
@@ -202,7 +229,7 @@
    "class": "product-internal",
    "note": "",
    "description": "IDE style command line auto complete",
-   "stars": 10778,
+   "stars": 10785,
    "url": "https://github.com/microsoft/inshellisense",
    "skill_count": 1,
    "branch": "main"
@@ -211,7 +238,7 @@
    "class": "dedicated",
    "note": "透かし除去・文面クリーニング",
    "description": "A privacy-first app that strips AI watermarks from content you own.",
-   "stars": 27745,
+   "stars": 28421,
    "url": "https://github.com/guillaumemeyer/watermarks-remover",
    "skill_count": 2,
    "branch": "main"
@@ -220,7 +247,7 @@
    "class": "dedicated",
    "note": "最小実装を促す行動スキル集",
    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-   "stars": 193804,
+   "stars": 198356,
    "url": "https://github.com/DietrichGebert/ponytail",
    "skill_count": 13,
    "branch": "main"
@@ -229,7 +256,7 @@
    "class": "dedicated",
    "note": "CAD / 3D プリント系スキル集",
    "description": "Design physical products with AI",
-   "stars": 26725,
+   "stars": 27406,
    "url": "https://github.com/earthtojake/text-to-cad",
    "skill_count": 8,
    "branch": "main"
@@ -238,7 +265,7 @@
    "class": "product-internal",
    "note": "",
    "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-   "stars": 28941,
+   "stars": 29099,
    "url": "https://github.com/google-labs-code/design.md",
    "skill_count": 4,
    "branch": "main"
@@ -247,7 +274,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Markdown Preview Enhanced for macOS QuickLook",
-   "stars": 1348,
+   "stars": 1361,
    "url": "https://github.com/xykong/flux-markdown",
    "skill_count": 2,
    "branch": "master"
@@ -256,7 +283,7 @@
    "class": "agent-bundled",
    "note": "Hermes 本体のスキルライブラリ（optional-skills が追加プール）",
    "description": "The agent that grows with you",
-   "stars": 264433,
+   "stars": 265985,
    "url": "https://github.com/NousResearch/hermes-agent",
    "skill_count": 186,
    "branch": "main"
@@ -265,7 +292,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
-   "stars": 29339,
+   "stars": 29412,
    "url": "https://github.com/srbhr/Resume-Matcher",
    "skill_count": 1,
    "branch": "main"
@@ -274,7 +301,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
-   "stars": 63485,
+   "stars": 63866,
    "url": "https://github.com/BerriAI/litellm",
    "skill_count": 10,
    "branch": "main"
@@ -282,8 +309,8 @@
   "obsidianmd/obsidian-skills": {
    "class": "dedicated",
    "note": "",
-   "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-   "stars": 53150,
+   "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+   "stars": 53706,
    "url": "https://github.com/obsidianmd/obsidian-skills",
    "skill_count": 7,
    "branch": "main"
@@ -292,7 +319,7 @@
    "class": "dedicated",
    "note": "直近30日の話題リサーチ",
    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-   "stars": 69711,
+   "stars": 74622,
    "url": "https://github.com/mvanhorn/last30days-skill",
    "skill_count": 1,
    "branch": "main"
@@ -301,7 +328,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Browser automation CLI for AI agents",
-   "stars": 52574,
+   "stars": 53873,
    "url": "https://github.com/vercel-labs/agent-browser",
    "skill_count": 12,
    "branch": "main"
@@ -310,7 +337,7 @@
    "class": "product-internal",
    "note": "",
    "description": "An autonomous agent for deep financial research",
-   "stars": 27847,
+   "stars": 28032,
    "url": "https://github.com/virattt/dexter",
    "skill_count": 3,
    "branch": "main"
@@ -319,16 +346,16 @@
    "class": "product-internal",
    "note": "",
    "description": "The open source coding agent.",
-   "stars": 227767,
+   "stars": 229059,
    "url": "https://github.com/anomalyco/opencode",
-   "skill_count": 24,
+   "skill_count": 25,
    "branch": "dev"
   },
   "tw93/Mole": {
    "class": "product-internal",
    "note": "",
    "description": "🐹 Open-source Mac and PC cleaner. Keep your machine clean, light, and running like new. Fast CLI, plus native Mac and Windows apps.",
-   "stars": 75488,
+   "stars": 76132,
    "url": "https://github.com/tw93/Mole",
    "skill_count": 6,
    "branch": "main"
@@ -337,16 +364,16 @@
    "class": "product-internal",
    "note": "",
    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-   "stars": 210883,
+   "stars": 212074,
    "url": "https://github.com/n8n-io/n8n",
-   "skill_count": 45,
+   "skill_count": 46,
    "branch": "master"
   },
   "supabase/supabase": {
    "class": "product-internal",
    "note": "",
    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-   "stars": 115126,
+   "stars": 115430,
    "url": "https://github.com/supabase/supabase",
    "skill_count": 25,
    "branch": "master"
@@ -355,16 +382,16 @@
    "class": "product-internal",
    "note": "",
    "description": "The React Framework",
-   "stars": 143731,
+   "stars": 143685,
    "url": "https://github.com/vercel/next.js",
-   "skill_count": 27,
+   "skill_count": 30,
    "branch": "canary"
   },
   "microsoft/TypeScript": {
    "class": "product-internal",
    "note": "",
    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-   "stars": 111841,
+   "stars": 111895,
    "url": "https://github.com/microsoft/TypeScript",
    "skill_count": 4,
    "branch": "main"
@@ -373,7 +400,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The library for web and native user interfaces.",
-   "stars": 252771,
+   "stars": 252895,
    "url": "https://github.com/react/react",
    "skill_count": 14,
    "branch": "main"
@@ -382,7 +409,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
-   "stars": 50567,
+   "stars": 50626,
    "url": "https://github.com/pandas-dev/pandas",
    "skill_count": 1,
    "branch": "main"
@@ -391,7 +418,7 @@
    "class": "product-internal",
    "note": "",
    "description": "JavaScript API for Chrome and Firefox",
-   "stars": 95859,
+   "stars": 95900,
    "url": "https://github.com/puppeteer/puppeteer",
    "skill_count": 1,
    "branch": "main"
@@ -400,7 +427,7 @@
    "class": "product-internal",
    "note": "",
    "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
-   "stars": 71482,
+   "stars": 71596,
    "url": "https://github.com/ansible/ansible",
    "skill_count": 4,
    "branch": "devel"
@@ -409,7 +436,7 @@
    "class": "product-internal",
    "note": "",
    "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-   "stars": 77991,
+   "stars": 78142,
    "url": "https://github.com/grafana/grafana",
    "skill_count": 3,
    "branch": "main"
@@ -418,9 +445,9 @@
    "class": "product-internal",
    "note": "",
    "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-   "stars": 123761,
+   "stars": 123964,
    "url": "https://github.com/nodejs/node",
-   "skill_count": 28,
+   "skill_count": 33,
    "branch": "main"
   }
  },
@@ -609,7 +636,7 @@
    "repo": "mattpocock/skills",
    "path": "skills/in-progress/chief-of-staff",
    "name": "chief-of-staff",
-   "description": "Pursue a long-running goal in a single session by co-ordinating subagents."
+   "description": "Delegate the work to fresh subagents and remember what it taught you in a dated wiki, so the next session picks up the thread."
   },
   {
    "repo": "mattpocock/skills",
@@ -813,13 +840,13 @@
    "repo": "cathrynlavery/diagram-design",
    "path": "skills/diagram-design",
    "name": "diagram-design",
-   "description": "Create branded architecture, architecture delta, IT current-state, flowchart, sequence, state machine, ER/data model, steps, timeline, swimlane, quadrant, radar/spider, polar chart (polar/radial lollipop), loop/flywheel, nested, tree, org chart, layer stack, exploded axonometric, axonometric plan, Venn, pyramid/funnel, treemap and marimekko, unit grid, heatmap, bar and dumbbell, waterfall, line (slopegraph, ridgeline, streamgraph, bump), Gantt and scatter charts (bubble, beeswarm, box plot), high-level, process, medallion, data flow, DP integration, DP security matrix, Sankey, fishbone, Wardley map, kanban, user journey, service blueprint, deployment, dependency graph (arc diagram), UML class, story map, database schema, SBGN, requirement traceability, or event modeling diagrams as HTML/SVG/PNG, with .drawio, Mermaid, .excalidraw, and PlantUML import, plus lifecycle phase maps, block decomposition trees, and onboarding guidance."
+   "description": "Create branded architecture, architecture delta, IT current-state, flowchart, sequence, state machine, ER/data model, steps, timeline, git graph, swimlane, quadrant, radar/spider, polar chart (polar/radial lollipop), loop/flywheel, nested, tree, org chart, layer stack, exploded axonometric, axonometric plan, Venn, pyramid/funnel, treemap and marimekko, unit grid, heatmap, bar and dumbbell, waterfall, line (slopegraph, ridgeline, streamgraph, bump), Gantt and scatter charts (bubble, beeswarm, box plot), high-level, process, medallion, data flow, DP integration, DP security matrix, Sankey, fishbone, Wardley map, kanban, user journey, service blueprint, deployment, dependency graph (arc diagram), UML class, story map, database schema, SBGN, requirement traceability, event modeling, or schedule network diagrams as HTML/SVG/PNG, with .drawio, Mermaid, .excalidraw, and PlantUML import, plus lifecycle phase maps, block decomposition trees, and onboarding guidance."
   },
   {
    "repo": "virgiliojr94/book-to-skill",
    "path": ".",
    "name": "book-to-skill",
-   "description": "Converts books and documents (PDF, EPUB, DOCX, HTML, Markdown, plain text, RTF, MOBI/AZW with Calibre) into structured agent skills, extracting frameworks, mental models, principles, techniques, and anti-patterns. Use when the user wants to study a document through GitHub Copilot CLI, Amp, Claude Code, Hermes Agent, OpenCode, or OpenClaw, apply an author's frameworks while working, or build a reusable knowledge base from a file."
+   "description": "Converts books and documents into structured agent skills from local files (PDF, EPUB, DOCX, HTML, Markdown, TXT, RTF, MOBI/AZW) or remote MCP book search (`/book-to-skill search <query>`), extracting frameworks, mental models, principles, techniques, and anti-patterns. Use via GitHub Copilot CLI, Amp, Claude Code, Hermes Agent, OpenCode, or OpenClaw to study a document or apply an author's frameworks."
   },
   {
    "repo": "ayghri/i-have-adhd",
@@ -933,49 +960,49 @@
    "repo": "earthtojake/text-to-cad",
    "path": "skills/cad",
    "name": "cad",
-   "description": "Creates and edits parametric CAD parts, assemblies and 2D profiles as Python build123d models that text-to-cad's server builds and the CAD Viewer shows live; exports STEP, STL, 3MF, GLB, DXF and xbf files on request; resolves prompt references, measures geometry, checks whether a part can be machined, cut and bent, molded or printed, and articulates or animates assemblies. Use for 3D CAD modeling, editing a model script (any change to a part's or assembly's `.py`), organizing a CAD project, exporting or converting CAD files, DXF files, flat patterns, gaskets and laser or waterjet cut layouts, Quick Edit prompts, mechanisms, and explode or showcase animations. Opens and reviews existing XBF, STEP/STP, STL, 3MF, GLB and DXF files in the CAD Viewer. Not for the robot and world descriptions the robot-simulation skill writes."
+   "description": "Designs and edits 3D CAD - parametric parts, assemblies, mechanisms and 2D cut profiles, written as build123d Python and shown live in the text-to-cad viewer. Use for any request to model, change, measure, inspect, animate, export or convert a part or a CAD file (STEP, STL, 3MF, GLB, DXF, xbf), for references and Quick Edit prompts copied from the viewer, and to check whether a part can be machined, cut and bent, molded or printed. Not for robot descriptions, which the robot-simulation skill writes."
   },
   {
    "repo": "earthtojake/text-to-cad",
    "path": "skills/engineering-drawing",
    "name": "engineering-drawing",
-   "description": "Make an engineering drawing of a part as a PDF - orthographic views with hidden lines and centre marks, real dimensions, hole callouts, notes and a title block on ISO sheets, all projected from the part's geometry so the drawing follows the model. Use when the user asks for a drawing, a dimensioned sheet, shop or manufacturing drawings, a print, or \"2D views of this part\". Not for DXF cut layouts or flat patterns."
+   "description": "Makes an engineering drawing of a part as a PDF, projected from its 3D geometry so the drawing follows the model, with dimensioned orthographic views, hole callouts, notes and a title block. Use when the person asks for a drawing, a dimensioned sheet, shop or manufacturing drawings, a blueprint, or \"2D views of this part\". Not for DXF cut layouts or flat patterns, which the cad skill makes."
   },
   {
    "repo": "earthtojake/text-to-cad",
    "path": "skills/fea",
    "name": "fea",
-   "description": "Checks whether a part or an assembly of bonded parts holds under its loads, as a linear static stress study of a STEP, an xbf or a text-to-cad model, meshed by netgen and solved by CalculiX, giving peak von Mises stress, safety factor against yield and deflection drawn on the part. Use when the person asks whether a part will hold, break or is strong enough, how much it bends or sags, where it is most stressed, how much load it takes, how to make it stronger or lighter without failing, or for FEA, a stress analysis or a strength simulation. Static loads and steady g-loads only."
+   "description": "Checks whether a part, or an assembly of bonded parts, is strong enough under its loads, as a linear static stress study (FEA). Use when the person asks whether a part will hold, break or bend too much, where it is most stressed, how much load it takes, how to make it stronger or lighter, or for FEA, a stress analysis or a strength simulation. Reports peak stress, safety factor against yield and deflection. Static loads only, not vibration, buckling, heat, fatigue or impact."
   },
   {
    "repo": "earthtojake/text-to-cad",
    "path": "skills/pcb",
    "name": "pcb",
-   "description": "Create, edit, lay out and review native KiCad circuit boards (.kicad_pcb) and their schematics (.kicad_sch) - parts and nets, ERC, placement and routing, DRC, and a review before ordering (fab limits, decoupling, track width for current, assembly and BOM sourcing for JLCPCB, PCBWay or another fab); exports fabrication files, the netlist and BOM, or STEP for enclosure design. Shows boards and schematics in the CAD Viewer."
+   "description": "Designs, edits and reviews KiCad circuit boards and schematics (.kicad_pcb, .kicad_sch). Use for any request about a PCB, a schematic or a circuit - parts and nets, placement and routing, ERC and DRC, a review before ordering from JLCPCB, PCBWay or another fab, and fabrication files, a BOM, a netlist or a STEP of the board. Not for the enclosure or other mechanical parts, which the cad skill makes."
   },
   {
    "repo": "earthtojake/text-to-cad",
    "path": "skills/print3d",
    "name": "print3d",
-   "description": "Prints a part - slices an `.stl`, `.3mf` or `.obj` into printer-ready G-code with OrcaSlicer, headless or in the app, with built-in profiles for most FDM printers (Prusa, Bambu Lab, Creality, Voron), and sends it to a Bambu Lab printer through Bambu Connect or Bambu Studio. Use when the person wants a model sliced or printed. Never starts a print; whether a part will print is the cad skill's check."
+   "description": "Gets a part 3D printed - slices an .stl, .3mf or .obj into G-code with OrcaSlicer and, for a Bambu Lab printer, hands it to Bambu's own app. Use when the person wants a model sliced, printed or sent to their printer (Prusa, Bambu Lab, Creality, Voron and most FDM printers). Whether a part will print well is the cad skill's check."
   },
   {
    "repo": "earthtojake/text-to-cad",
    "path": "skills/render",
    "name": "render",
-   "description": "Renders photoreal images and videos of a text-to-cad model, a STEP or an xbf with Blender, for people to look at, such as a hero shot, a README picture, a product post, a turntable or a film of a model's motion or animation. Exports a GLB, loads it with cad.blender, lights and frames it in a bpy script that `cad run` runs, drafts in EEVEE and finishes in Cycles on the GPU, and can save a .blend. Not for checking geometry, which a snapshot does."
+   "description": "Renders photoreal images and videos of a text-to-cad model, a STEP or an xbf with Blender - a hero shot, a product or README picture, a turntable, or a film of a model's motion. Use when the person wants a picture or a video for people to look at. Not for checking geometry, which the cad skill's snapshot does."
   },
   {
    "repo": "earthtojake/text-to-cad",
    "path": "skills/robot-simulation",
    "name": "robot-simulation",
-   "description": "Robot and world descriptions (URDF, SRDF, MJCF) for ROS, MoveIt and MuJoCo. Use to generate a robot description or a MuJoCo scene from a CAD model's joints, materials and collision, or to write and review a `.urdf`, `.srdf` or MJCF `.xml` by hand (links, joints, inertials, meshes, MoveIt groups, MuJoCo classes, actuators, keyframes, model health). Not the CAD part itself, which the `cad` skill makes, nor a simulation run."
+   "description": "Writes and reviews robot and world descriptions (URDF, SRDF, MJCF) for ROS, MoveIt and MuJoCo. Use to generate a robot description or a MuJoCo scene from a CAD model's joints, or to write, edit or check a .urdf, .srdf or MJCF .xml by hand. Not for the CAD part itself, which the cad skill makes, and it runs no simulation."
   },
   {
    "repo": "earthtojake/text-to-cad",
    "path": "skills/sendcutsend",
    "name": "sendcutsend",
-   "description": "Review DXF and STEP/STP uploads for SendCutSend.com orders using its ordering guide, catalog, and specs. Use only for SendCutSend.com preflight reports covering upload readiness, selected material/SKU/thickness/service availability, and service-specific checks for laser cutting, CNC routing, bending, tapping, countersinking, hardware insertion, and finishing."
+   "description": "Checks DXF and STEP files against SendCutSend.com's ordering guide, catalog and specs before an order. Use when the person names SendCutSend or is preparing an order there, to say whether a file will upload, whether the chosen material, thickness and services are offered, and what laser cutting, CNC routing, bending, tapping, hardware or finishing require. Not for designing the part or its flat pattern, which the cad skill does."
   },
   {
    "repo": "NousResearch/hermes-agent",
