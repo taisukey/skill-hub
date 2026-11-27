@@ -7,7 +7,8 @@
    "stars": 14590,
    "url": "https://github.com/emdash-cms/emdash",
    "skill_count": 39,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "firecrawl/firecrawl": {
    "class": "product-internal",
@@ -16,7 +17,8 @@
    "stars": 209367,
    "url": "https://github.com/firecrawl/firecrawl",
    "skill_count": 5,
-   "branch": "main"
+   "branch": "main",
+   "license": "AGPL-3.0"
   },
   "microsoft/flint-chart": {
    "class": "product-internal",
@@ -25,7 +27,8 @@
    "stars": 4610,
    "url": "https://github.com/microsoft/flint-chart",
    "skill_count": 11,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "NVIDIA/SkillSpector": {
    "class": "dedicated",
@@ -34,7 +37,8 @@
    "stars": 27597,
    "url": "https://github.com/NVIDIA/SkillSpector",
    "skill_count": 34,
-   "branch": "main"
+   "branch": "main",
+   "license": "Apache-2.0"
   },
   "nicobailon/visual-explainer": {
    "class": "dedicated",
@@ -43,7 +47,8 @@
    "stars": 11269,
    "url": "https://github.com/nicobailon/visual-explainer",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "vercel-labs/ui": {
    "class": "product-internal",
@@ -52,7 +57,8 @@
    "stars": 7356,
    "url": "https://github.com/vercel-labs/ui",
    "skill_count": 5,
-   "branch": "main"
+   "branch": "main",
+   "license": "Apache-2.0"
   },
   "meta/astryx": {
    "class": "product-internal",
@@ -61,7 +67,8 @@
    "stars": 32970,
    "url": "https://github.com/meta/astryx",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "ghostty-org/ghostty": {
    "class": "product-internal",
@@ -70,7 +77,8 @@
    "stars": 64439,
    "url": "https://github.com/ghostty-org/ghostty",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "cloudflare/security-audit-skill": {
    "class": "dedicated",
@@ -79,7 +87,8 @@
    "stars": 78130,
    "url": "https://github.com/cloudflare/security-audit-skill",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "taisukey/chat-map": {
    "class": "dedicated",
@@ -88,7 +97,8 @@
    "stars": 1,
    "url": "https://github.com/taisukey/chat-map",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "heydamir/unslop": {
    "class": "dedicated",
@@ -97,7 +107,8 @@
    "stars": 21434,
    "url": "https://github.com/heydamir/unslop",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "CC-BY-4.0"
   },
   "vercel-labs/agent-desktop": {
    "class": "product-internal",
@@ -106,7 +117,8 @@
    "stars": 26572,
    "url": "https://github.com/vercel-labs/agent-desktop",
    "skill_count": 8,
-   "branch": "main"
+   "branch": "main",
+   "license": "Apache-2.0"
   },
   "wheresryan22/anatomy": {
    "class": "dedicated",
@@ -115,7 +127,8 @@
    "stars": 29114,
    "url": "https://github.com/wheresryan22/anatomy",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "enesozturk/dimensional-drawing": {
    "class": "dedicated",
@@ -124,7 +137,8 @@
    "stars": 2248,
    "url": "https://github.com/enesozturk/dimensional-drawing",
    "skill_count": 2,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "abiosoft/colima": {
    "class": "dedicated",
@@ -133,7 +147,8 @@
    "stars": 31827,
    "url": "https://github.com/abiosoft/colima",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "nanaism/yomiyasu": {
    "class": "dedicated",
@@ -142,7 +157,8 @@
    "stars": 3504,
    "url": "https://github.com/nanaism/yomiyasu",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "mattpocock/skills": {
    "class": "dedicated",
@@ -151,7 +167,8 @@
    "stars": 332508,
    "url": "https://github.com/mattpocock/skills",
    "skill_count": 39,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "obra/superpowers": {
    "class": "dedicated",
@@ -160,7 +177,8 @@
    "stars": 326150,
    "url": "https://github.com/obra/superpowers",
    "skill_count": 15,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "steipete/CodexBar": {
    "class": "product-internal",
@@ -169,7 +187,8 @@
    "stars": 23331,
    "url": "https://github.com/steipete/CodexBar",
    "skill_count": 3,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "tangency-labs/solidcraft": {
    "class": "product-internal",
@@ -178,7 +197,8 @@
    "stars": 18159,
    "url": "https://github.com/tangency-labs/solidcraft",
    "skill_count": 27,
-   "branch": "main"
+   "branch": "main",
+   "license": "Apache-2.0"
   },
   "morluto/rea": {
    "class": "product-internal",
@@ -187,7 +207,8 @@
    "stars": 477701,
    "url": "https://github.com/morluto/rea",
    "skill_count": 6,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "cathrynlavery/diagram-design": {
    "class": "dedicated",
@@ -196,7 +217,8 @@
    "stars": 72463,
    "url": "https://github.com/cathrynlavery/diagram-design",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "virgiliojr94/book-to-skill": {
    "class": "dedicated",
@@ -205,7 +227,8 @@
    "stars": 38995,
    "url": "https://github.com/virgiliojr94/book-to-skill",
    "skill_count": 1,
-   "branch": "master"
+   "branch": "master",
+   "license": "MIT"
   },
   "ayghri/i-have-adhd": {
    "class": "dedicated",
@@ -214,7 +237,8 @@
    "stars": 62230,
    "url": "https://github.com/ayghri/i-have-adhd",
    "skill_count": 2,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "firecrawl/anydoc": {
    "class": "dedicated",
@@ -223,7 +247,8 @@
    "stars": 23700,
    "url": "https://github.com/firecrawl/anydoc",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "microsoft/inshellisense": {
    "class": "product-internal",
@@ -232,7 +257,8 @@
    "stars": 10785,
    "url": "https://github.com/microsoft/inshellisense",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "guillaumemeyer/watermarks-remover": {
    "class": "dedicated",
@@ -241,7 +267,8 @@
    "stars": 28428,
    "url": "https://github.com/guillaumemeyer/watermarks-remover",
    "skill_count": 2,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "DietrichGebert/ponytail": {
    "class": "dedicated",
@@ -250,7 +277,8 @@
    "stars": 198365,
    "url": "https://github.com/DietrichGebert/ponytail",
    "skill_count": 13,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "earthtojake/text-to-cad": {
    "class": "dedicated",
@@ -259,7 +287,8 @@
    "stars": 27408,
    "url": "https://github.com/earthtojake/text-to-cad",
    "skill_count": 8,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "google-labs-code/design.md": {
    "class": "product-internal",
@@ -268,7 +297,8 @@
    "stars": 29101,
    "url": "https://github.com/google-labs-code/design.md",
    "skill_count": 4,
-   "branch": "main"
+   "branch": "main",
+   "license": "Apache-2.0"
   },
   "xykong/flux-markdown": {
    "class": "product-internal",
@@ -277,7 +307,8 @@
    "stars": 1361,
    "url": "https://github.com/xykong/flux-markdown",
    "skill_count": 2,
-   "branch": "master"
+   "branch": "master",
+   "license": "GPL-3.0"
   },
   "NousResearch/hermes-agent": {
    "class": "agent-bundled",
@@ -286,7 +317,8 @@
    "stars": 265987,
    "url": "https://github.com/NousResearch/hermes-agent",
    "skill_count": 186,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "srbhr/Resume-Matcher": {
    "class": "product-internal",
@@ -295,7 +327,8 @@
    "stars": 29412,
    "url": "https://github.com/srbhr/Resume-Matcher",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "Apache-2.0"
   },
   "BerriAI/litellm": {
    "class": "product-internal",
@@ -304,7 +337,8 @@
    "stars": 63867,
    "url": "https://github.com/BerriAI/litellm",
    "skill_count": 10,
-   "branch": "main"
+   "branch": "main",
+   "license": "NOASSERTION"
   },
   "obsidianmd/obsidian-skills": {
    "class": "dedicated",
@@ -313,7 +347,8 @@
    "stars": 53708,
    "url": "https://github.com/obsidianmd/obsidian-skills",
    "skill_count": 7,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "mvanhorn/last30days-skill": {
    "class": "dedicated",
@@ -322,7 +357,8 @@
    "stars": 74630,
    "url": "https://github.com/mvanhorn/last30days-skill",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "vercel-labs/agent-browser": {
    "class": "product-internal",
@@ -331,7 +367,8 @@
    "stars": 53876,
    "url": "https://github.com/vercel-labs/agent-browser",
    "skill_count": 12,
-   "branch": "main"
+   "branch": "main",
+   "license": "Apache-2.0"
   },
   "virattt/dexter": {
    "class": "product-internal",
@@ -340,7 +377,8 @@
    "stars": 28032,
    "url": "https://github.com/virattt/dexter",
    "skill_count": 3,
-   "branch": "main"
+   "branch": "main",
+   "license": null
   },
   "anomalyco/opencode": {
    "class": "product-internal",
@@ -349,7 +387,8 @@
    "stars": 229062,
    "url": "https://github.com/anomalyco/opencode",
    "skill_count": 25,
-   "branch": "dev"
+   "branch": "dev",
+   "license": "MIT"
   },
   "tw93/Mole": {
    "class": "product-internal",
@@ -358,7 +397,8 @@
    "stars": 76133,
    "url": "https://github.com/tw93/Mole",
    "skill_count": 6,
-   "branch": "main"
+   "branch": "main",
+   "license": "GPL-3.0"
   },
   "n8n-io/n8n": {
    "class": "product-internal",
@@ -367,7 +407,8 @@
    "stars": 212076,
    "url": "https://github.com/n8n-io/n8n",
    "skill_count": 46,
-   "branch": "master"
+   "branch": "master",
+   "license": "NOASSERTION"
   },
   "supabase/supabase": {
    "class": "product-internal",
@@ -376,7 +417,8 @@
    "stars": 115431,
    "url": "https://github.com/supabase/supabase",
    "skill_count": 25,
-   "branch": "master"
+   "branch": "master",
+   "license": "Apache-2.0"
   },
   "vercel/next.js": {
    "class": "product-internal",
@@ -385,7 +427,8 @@
    "stars": 143686,
    "url": "https://github.com/vercel/next.js",
    "skill_count": 30,
-   "branch": "canary"
+   "branch": "canary",
+   "license": "MIT"
   },
   "microsoft/TypeScript": {
    "class": "product-internal",
@@ -394,7 +437,8 @@
    "stars": 111895,
    "url": "https://github.com/microsoft/TypeScript",
    "skill_count": 4,
-   "branch": "main"
+   "branch": "main",
+   "license": "Apache-2.0"
   },
   "react/react": {
    "class": "product-internal",
@@ -403,7 +447,8 @@
    "stars": 252895,
    "url": "https://github.com/react/react",
    "skill_count": 14,
-   "branch": "main"
+   "branch": "main",
+   "license": "MIT"
   },
   "pandas-dev/pandas": {
    "class": "product-internal",
@@ -412,7 +457,8 @@
    "stars": 50626,
    "url": "https://github.com/pandas-dev/pandas",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "BSD-3-Clause"
   },
   "puppeteer/puppeteer": {
    "class": "product-internal",
@@ -421,7 +467,8 @@
    "stars": 95900,
    "url": "https://github.com/puppeteer/puppeteer",
    "skill_count": 1,
-   "branch": "main"
+   "branch": "main",
+   "license": "Apache-2.0"
   },
   "ansible/ansible": {
    "class": "product-internal",
@@ -430,7 +477,8 @@
    "stars": 71597,
    "url": "https://github.com/ansible/ansible",
    "skill_count": 4,
-   "branch": "devel"
+   "branch": "devel",
+   "license": "GPL-3.0"
   },
   "grafana/grafana": {
    "class": "product-internal",
@@ -439,7 +487,8 @@
    "stars": 78143,
    "url": "https://github.com/grafana/grafana",
    "skill_count": 3,
-   "branch": "main"
+   "branch": "main",
+   "license": "AGPL-3.0"
   },
   "nodejs/node": {
    "class": "product-internal",
@@ -448,7 +497,8 @@
    "stars": 123966,
    "url": "https://github.com/nodejs/node",
    "skill_count": 33,
-   "branch": "main"
+   "branch": "main",
+   "license": "NOASSERTION"
   }
  },
  "skills": [

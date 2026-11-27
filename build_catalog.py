@@ -67,6 +67,14 @@ def classify(repo, desc, paths, curated):
     return "product-internal", ""
 
 
+def license_label(spdx):
+    if spdx is None:
+        return "ライセンスなし"
+    if spdx == "NOASSERTION":
+        return "独自・複合"
+    return spdx
+
+
 def parse_frontmatter(text):
     if not text.startswith("---"):
         return None, None
@@ -101,6 +109,7 @@ def main():
             continue
         cls, note = classify(repo, repo_obj.get("description"), paths, curated)
         catalog["repos"][repo] = {
+            "license": (repo_obj.get("license") or {}).get("spdx_id"),
             "class": cls, "note": note,
             "description": repo_obj.get("description") or "",
             "stars": repo_obj.get("stargazers_count"),
@@ -152,7 +161,7 @@ def main():
             continue
         lines += [f"## {title}（{len(repos)} repos）", ""]
         for repo, info in sorted(repos, key=lambda x: -(x[1]["stars"] or 0)):
-            lines.append(f"### [{repo}]({info['url']}) — {info['skill_count']} skills ★{info['stars']}")
+            lines.append(f"### [{repo}]({info['url']}) — {info['skill_count']} skills ★{info['stars']} · {license_label(info.get('license'))}")
             if info["note"]:
                 lines.append(f"> {info['note']}")
             if info["description"]:
@@ -164,6 +173,17 @@ def main():
     with open(os.path.join(HERE, "CATALOG.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     print(f"完了: {len(skills)} skills を catalog.json / CATALOG.md に出力", file=sys.stderr)
+    permissive = {"MIT", "MIT-0", "Apache-2.0", "BSD-2-Clause", "BSD-3-Clause",
+                  "ISC", "CC0-1.0", "Unlicense", "0BSD"}
+    watch = []
+    for repo in sorted(catalog["repos"], key=str.lower):
+        lic = catalog["repos"][repo].get("license")
+        if lic is None:
+            watch.append(f"{repo}（ライセンスなし）")
+        elif lic not in permissive:
+            watch.append(f"{repo}（{lic}）")
+    if watch:
+        print("ライセンス監視リスト: " + ", ".join(watch), file=sys.stderr)
     return 0
 
 

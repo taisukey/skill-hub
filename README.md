@@ -35,3 +35,10 @@ Hermes = `~/.hermes/skills/starred/`、DSH = `~/.dsh/skills/`。
 
 `python3 build_catalog.py`（gh CLI が使えるマシンで実行。Starred 取得 → SKILL.md 走査 →
 frontmatter 収集 → curated.json の分類上書きを適用）。
+
+## ライセンスと出所
+
+このリポジトリ自体の作成物（CLI・カタログ生成・キュレーション）は MIT License です。
+カタログが参照する各スキルは上流リポジトリのライセンスに従います。
+詳しくは [NOTICE.md](NOTICE.md) と [SOURCES.md](SOURCES.md) を参照してください。
+上流のライセンスはカタログ再生成のたびに自動で記録され、`check_licenses.py` で監視しています。
