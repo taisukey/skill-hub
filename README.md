@@ -4,6 +4,10 @@
   <a href="https://github.com/taisukey/skill-hub/blob/main/LICENSE"><img src="https://img.shields.io/github/license/taisukey/skill-hub" alt="License: MIT"></a>
 </p>
 
+<p align="center">
+  <b>日本語</b> · <a href="README.en.md">English</a>
+</p>
+
 GitHub Starred から **Agent Skills（SKILL.md を含むリポジトリ）だけ** を抽出した
 カタログと、それを Muse / Hermes / DeepSeek Harness (DSH) の各エージェントへ
 配布するための CLI。スター 135 件 → SKILL.md 保有 60 リポジトリ / 1,258 スキルを分類済み。
